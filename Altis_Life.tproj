@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectRootNode Name="Altis_Life" IsExpanded="true" FileName="">
+    <IsSelected>true</IsSelected>
+    <SubNodes>
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="core" IsExpanded="true" FileName="core">
+        <IsSelected>false</IsSelected>
+        <SubNodes>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="actions" IsExpanded="true" FileName="core\actions">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_arrestAction.sqf" IsExpanded="false" FileName="core\actions\fn_arrestAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_buyLicense.sqf" IsExpanded="false" FileName="core\actions\fn_buyLicense.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_captureHideout.sqf" IsExpanded="false" FileName="core\actions\fn_captureHideout.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_catchFish.sqf" IsExpanded="false" FileName="core\actions\fn_catchFish.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_dpFinish.sqf" IsExpanded="false" FileName="core\actions\fn_dpFinish.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_dropFishingNet.sqf" IsExpanded="false" FileName="core\actions\fn_dropFishingNet.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_escortAction.sqf" IsExpanded="false" FileName="core\actions\fn_escortAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gather.sqf" IsExpanded="false" FileName="core\actions\fn_gather.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_getDPMission.sqf" IsExpanded="false" FileName="core\actions\fn_getDPMission.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gutAnimal.sqf" IsExpanded="false" FileName="core\actions\fn_gutAnimal.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_healHospital.sqf" IsExpanded="false" FileName="core\actions\fn_healHospital.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_impoundAction.sqf" IsExpanded="false" FileName="core\actions\fn_impoundAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_mine.sqf" IsExpanded="false" FileName="core\actions\fn_mine.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_newsBroadcast.sqf" IsExpanded="false" FileName="core\actions\fn_newsBroadcast.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_packupSpikes.sqf" IsExpanded="false" FileName="core\actions\fn_packupSpikes.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_pickupItem.sqf" IsExpanded="false" FileName="core\actions\fn_pickupItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_pickupMoney.sqf" IsExpanded="false" FileName="core\actions\fn_pickupMoney.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_postBail.sqf" IsExpanded="false" FileName="core\actions\fn_postBail.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_processAction.sqf" IsExpanded="false" FileName="core\actions\fn_processAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_pulloutAction.sqf" IsExpanded="false" FileName="core\actions\fn_pulloutAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_putInCar.sqf" IsExpanded="false" FileName="core\actions\fn_putInCar.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_removeContainer.sqf" IsExpanded="false" FileName="core\actions\fn_removeContainer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_repairTruck.sqf" IsExpanded="false" FileName="core\actions\fn_repairTruck.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_restrainAction.sqf" IsExpanded="false" FileName="core\actions\fn_restrainAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_robAction.sqf" IsExpanded="false" FileName="core\actions\fn_robAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_searchAction.sqf" IsExpanded="false" FileName="core\actions\fn_searchAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_searchVehAction.sqf" IsExpanded="false" FileName="core\actions\fn_searchVehAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_seizePlayerAction.sqf" IsExpanded="false" FileName="core\actions\fn_seizePlayerAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_serviceChopper.sqf" IsExpanded="false" FileName="core\actions\fn_serviceChopper.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_stopEscorting.sqf" IsExpanded="false" FileName="core\actions\fn_stopEscorting.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_storeVehicle.sqf" IsExpanded="false" FileName="core\actions\fn_storeVehicle.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_surrender.sqf" IsExpanded="false" FileName="core\actions\fn_surrender.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_ticketAction.sqf" IsExpanded="false" FileName="core\actions\fn_ticketAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_unrestrain.sqf" IsExpanded="false" FileName="core\actions\fn_unrestrain.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="admin" IsExpanded="true" FileName="core\admin">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminCompensate.sqf" IsExpanded="false" FileName="core\admin\fn_adminCompensate.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminDebugCon.sqf" IsExpanded="false" FileName="core\admin\fn_adminDebugCon.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminFreeze.sqf" IsExpanded="false" FileName="core\admin\fn_adminFreeze.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminGetID.sqf" IsExpanded="false" FileName="core\admin\fn_adminGetID.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminGodMode.sqf" IsExpanded="false" FileName="core\admin\fn_adminGodMode.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminID.sqf" IsExpanded="false" FileName="core\admin\fn_adminID.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminInfo.sqf" IsExpanded="false" FileName="core\admin\fn_adminInfo.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminMarkers.sqf" IsExpanded="false" FileName="core\admin\fn_adminMarkers.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminMenu.sqf" IsExpanded="false" FileName="core\admin\fn_adminMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminQuery.sqf" IsExpanded="false" FileName="core\admin\fn_adminQuery.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminSpectate.sqf" IsExpanded="false" FileName="core\admin\fn_adminSpectate.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminTeleport.sqf" IsExpanded="false" FileName="core\admin\fn_adminTeleport.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_adminTpHere.sqf" IsExpanded="false" FileName="core\admin\fn_adminTpHere.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="civilian" IsExpanded="true" FileName="core\civilian">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_civLoadout.sqf" IsExpanded="false" FileName="core\civilian\fn_civLoadout.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_civMarkers.sqf" IsExpanded="false" FileName="core\civilian\fn_civMarkers.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_demoChargeTimer.sqf" IsExpanded="false" FileName="core\civilian\fn_demoChargeTimer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_freezePlayer.sqf" IsExpanded="false" FileName="core\civilian\fn_freezePlayer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_jail.sqf" IsExpanded="false" FileName="core\civilian\fn_jail.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_jailMe.sqf" IsExpanded="false" FileName="core\civilian\fn_jailMe.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_knockedOut.sqf" IsExpanded="false" FileName="core\civilian\fn_knockedOut.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_knockoutAction.sqf" IsExpanded="false" FileName="core\civilian\fn_knockoutAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_removeLicenses.sqf" IsExpanded="false" FileName="core\civilian\fn_removeLicenses.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_robPerson.sqf" IsExpanded="false" FileName="core\civilian\fn_robPerson.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_robReceive.sqf" IsExpanded="false" FileName="core\civilian\fn_robReceive.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_tazed.sqf" IsExpanded="false" FileName="core\civilian\fn_tazed.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="config" IsExpanded="true" FileName="core\config">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_houseConfig.sqf" IsExpanded="false" FileName="core\config\fn_houseConfig.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_itemWeight.sqf" IsExpanded="false" FileName="core\config\fn_itemWeight.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleAnimate.sqf" IsExpanded="false" FileName="core\config\fn_vehicleAnimate.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleWeightCfg.sqf" IsExpanded="false" FileName="core\config\fn_vehicleWeightCfg.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="cop" IsExpanded="true" FileName="core\cop">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_bountyReceive.sqf" IsExpanded="false" FileName="core\cop\fn_bountyReceive.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_containerInvSearch.sqf" IsExpanded="false" FileName="core\cop\fn_containerInvSearch.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_copInteractionMenu.sqf" IsExpanded="false" FileName="core\cop\fn_copInteractionMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_copLights.sqf" IsExpanded="false" FileName="core\cop\fn_copLights.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_copLoadout.sqf" IsExpanded="false" FileName="core\cop\fn_copLoadout.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_copMarkers.sqf" IsExpanded="false" FileName="core\cop\fn_copMarkers.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_copSearch.sqf" IsExpanded="false" FileName="core\cop\fn_copSearch.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_copSiren.sqf" IsExpanded="false" FileName="core\cop\fn_copSiren.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_doorAnimate.sqf" IsExpanded="false" FileName="core\cop\fn_doorAnimate.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fedCamDisplay.sqf" IsExpanded="false" FileName="core\cop\fn_fedCamDisplay.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_licenseCheck.sqf" IsExpanded="false" FileName="core\cop\fn_licenseCheck.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_licensesRead.sqf" IsExpanded="false" FileName="core\cop\fn_licensesRead.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_questionDealer.sqf" IsExpanded="false" FileName="core\cop\fn_questionDealer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_radar.sqf" IsExpanded="false" FileName="core\cop\fn_radar.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_repairDoor.sqf" IsExpanded="false" FileName="core\cop\fn_repairDoor.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_restrain.sqf" IsExpanded="false" FileName="core\cop\fn_restrain.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_searchClient.sqf" IsExpanded="false" FileName="core\cop\fn_searchClient.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_seizeClient.sqf" IsExpanded="false" FileName="core\cop\fn_seizeClient.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_sirenLights.sqf" IsExpanded="false" FileName="core\cop\fn_sirenLights.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_spikeStripEffect.sqf" IsExpanded="false" FileName="core\cop\fn_spikeStripEffect.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_ticketGive.sqf" IsExpanded="false" FileName="core\cop\fn_ticketGive.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_ticketPaid.sqf" IsExpanded="false" FileName="core\cop\fn_ticketPaid.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_ticketPay.sqf" IsExpanded="false" FileName="core\cop\fn_ticketPay.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_ticketPrompt.sqf" IsExpanded="false" FileName="core\cop\fn_ticketPrompt.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehInvSearch.sqf" IsExpanded="false" FileName="core\cop\fn_vehInvSearch.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_wantedGrab.sqf" IsExpanded="false" FileName="core\cop\fn_wantedGrab.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="functions" IsExpanded="true" FileName="core\functions">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="network" IsExpanded="true" FileName="core\functions\network">
+                <IsSelected>false</IsSelected>
+                <SubNodes>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_broadcast.sqf" IsExpanded="false" FileName="core\functions\network\fn_broadcast.sqf">
+                    <IsSelected>false</IsSelected>
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_corpse.sqf" IsExpanded="false" FileName="core\functions\network\fn_corpse.sqf">
+                    <IsSelected>false</IsSelected>
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_jumpFnc.sqf" IsExpanded="false" FileName="core\functions\network\fn_jumpFnc.sqf">
+                    <IsSelected>false</IsSelected>
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_say3D.sqf" IsExpanded="false" FileName="core\functions\network\fn_say3D.sqf">
+                    <IsSelected>false</IsSelected>
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_setFuel.sqf" IsExpanded="false" FileName="core\functions\network\fn_setFuel.sqf">
+                    <IsSelected>false</IsSelected>
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                  <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_soundDevice.sqf" IsExpanded="false" FileName="core\functions\network\fn_soundDevice.sqf">
+                    <IsSelected>false</IsSelected>
+                    <SubNodes />
+                  </ProjectNodeViewModel>
+                </SubNodes>
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_AAN.sqf" IsExpanded="false" FileName="core\functions\fn_AAN.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_accType.sqf" IsExpanded="false" FileName="core\functions\fn_accType.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_actionKeyHandler.sqf" IsExpanded="false" FileName="core\functions\fn_actionKeyHandler.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_animSync.sqf" IsExpanded="false" FileName="core\functions\fn_animSync.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_calWeightDiff.sqf" IsExpanded="false" FileName="core\functions\fn_calWeightDiff.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_clearVehicleAmmo.sqf" IsExpanded="false" FileName="core\functions\fn_clearVehicleAmmo.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_dropItems.sqf" IsExpanded="false" FileName="core\functions\fn_dropItems.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_escInterupt.sqf" IsExpanded="false" FileName="core\functions\fn_escInterupt.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fetchCfgDetails.sqf" IsExpanded="false" FileName="core\functions\fn_fetchCfgDetails.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fetchDeadGear.sqf" IsExpanded="false" FileName="core\functions\fn_fetchDeadGear.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fetchVehInfo.sqf" IsExpanded="false" FileName="core\functions\fn_fetchVehInfo.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_giveDiff.sqf" IsExpanded="false" FileName="core\functions\fn_giveDiff.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_handleDamage.sqf" IsExpanded="false" FileName="core\functions\fn_handleDamage.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_handleInv.sqf" IsExpanded="false" FileName="core\functions\fn_handleInv.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_handleItem.sqf" IsExpanded="false" FileName="core\functions\fn_handleItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_hideObj.sqf" IsExpanded="false" FileName="core\functions\fn_hideObj.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_hudSetup.sqf" IsExpanded="false" FileName="core\functions\fn_hudSetup.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_hudUpdate.sqf" IsExpanded="false" FileName="core\functions\fn_hudUpdate.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_inString.sqf" IsExpanded="false" FileName="core\functions\fn_inString.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_inventoryClosed.sqf" IsExpanded="false" FileName="core\functions\fn_inventoryClosed.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_inventoryOpened.sqf" IsExpanded="false" FileName="core\functions\fn_inventoryOpened.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_isDamaged.sqf" IsExpanded="false" FileName="core\functions\fn_isDamaged.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_isUIDActive.sqf" IsExpanded="false" FileName="core\functions\fn_isUIDActive.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_keyHandler.sqf" IsExpanded="false" FileName="core\functions\fn_keyHandler.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_loadDeadGear.sqf" IsExpanded="false" FileName="core\functions\fn_loadDeadGear.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_loadGear.sqf" IsExpanded="false" FileName="core\functions\fn_loadGear.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_nearATM.sqf" IsExpanded="false" FileName="core\functions\fn_nearATM.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_nearestDoor.sqf" IsExpanded="false" FileName="core\functions\fn_nearestDoor.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_nearUnits.sqf" IsExpanded="false" FileName="core\functions\fn_nearUnits.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_numberText.sqf" IsExpanded="false" FileName="core\functions\fn_numberText.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_onFired.sqf" IsExpanded="false" FileName="core\functions\fn_onFired.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_onPutItem.sqf" IsExpanded="false" FileName="core\functions\fn_onPutItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_onTakeItem.sqf" IsExpanded="false" FileName="core\functions\fn_onTakeItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_playerSkins.sqf" IsExpanded="false" FileName="core\functions\fn_playerSkins.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_playerTags.sqf" IsExpanded="false" FileName="core\functions\fn_playerTags.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_postNewsBroadcast.sqf" IsExpanded="false" FileName="core\functions\fn_postNewsBroadcast.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_pullOutVeh.sqf" IsExpanded="false" FileName="core\functions\fn_pullOutVeh.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_pushObject.sqf" IsExpanded="false" FileName="core\functions\fn_pushObject.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_receiveItem.sqf" IsExpanded="false" FileName="core\functions\fn_receiveItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_receiveMoney.sqf" IsExpanded="false" FileName="core\functions\fn_receiveMoney.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_revealObjects.sqf" IsExpanded="false" FileName="core\functions\fn_revealObjects.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_saveGear.sqf" IsExpanded="false" FileName="core\functions\fn_saveGear.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_searchPosEmpty.sqf" IsExpanded="false" FileName="core\functions\fn_searchPosEmpty.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_simDisable.sqf" IsExpanded="false" FileName="core\functions\fn_simDisable.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_stripDownPlayer.sqf" IsExpanded="false" FileName="core\functions\fn_stripDownPlayer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_tazeSound.sqf" IsExpanded="false" FileName="core\functions\fn_tazeSound.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_teleport.sqf" IsExpanded="false" FileName="core\functions\fn_teleport.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_whereAmI.sqf" IsExpanded="false" FileName="core\functions\fn_whereAmI.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="gangs" IsExpanded="true" FileName="core\gangs">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_createGang.sqf" IsExpanded="false" FileName="core\gangs\fn_createGang.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangCreated.sqf" IsExpanded="false" FileName="core\gangs\fn_gangCreated.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangDisband.sqf" IsExpanded="false" FileName="core\gangs\fn_gangDisband.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangDisbanded.sqf" IsExpanded="false" FileName="core\gangs\fn_gangDisbanded.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangInvite.sqf" IsExpanded="false" FileName="core\gangs\fn_gangInvite.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangInvitePlayer.sqf" IsExpanded="false" FileName="core\gangs\fn_gangInvitePlayer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangKick.sqf" IsExpanded="false" FileName="core\gangs\fn_gangKick.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangLeave.sqf" IsExpanded="false" FileName="core\gangs\fn_gangLeave.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangMenu.sqf" IsExpanded="false" FileName="core\gangs\fn_gangMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangNewLeader.sqf" IsExpanded="false" FileName="core\gangs\fn_gangNewLeader.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangUpgrade.sqf" IsExpanded="false" FileName="core\gangs\fn_gangUpgrade.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_initGang.sqf" IsExpanded="false" FileName="core\gangs\fn_initGang.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="housing" IsExpanded="true" FileName="core\housing">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_buyHouse.sqf" IsExpanded="false" FileName="core\housing\fn_buyHouse.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_buyHouseGarage.sqf" IsExpanded="false" FileName="core\housing\fn_buyHouseGarage.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_containerMenu.sqf" IsExpanded="false" FileName="core\housing\fn_containerMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_copBreakDoor.sqf" IsExpanded="false" FileName="core\housing\fn_copBreakDoor.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_copHouseOwner.sqf" IsExpanded="false" FileName="core\housing\fn_copHouseOwner.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_garageRefund.sqf" IsExpanded="false" FileName="core\housing\fn_garageRefund.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_getBuildingPositions.sqf" IsExpanded="false" FileName="core\housing\fn_getBuildingPositions.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_houseMenu.sqf" IsExpanded="false" FileName="core\housing\fn_houseMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_initHouses.sqf" IsExpanded="false" FileName="core\housing\fn_initHouses.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_lightHouse.sqf" IsExpanded="false" FileName="core\housing\fn_lightHouse.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_lightHouseAction.sqf" IsExpanded="false" FileName="core\housing\fn_lightHouseAction.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_lockHouse.sqf" IsExpanded="false" FileName="core\housing\fn_lockHouse.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_lockupHouse.sqf" IsExpanded="false" FileName="core\housing\fn_lockupHouse.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_placeContainer.sqf" IsExpanded="false" FileName="core\housing\fn_placeContainer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_playerInBuilding.sqf" IsExpanded="false" FileName="core\housing\fn_playerInBuilding.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_raidHouse.sqf" IsExpanded="false" FileName="core\housing\fn_raidHouse.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_sellHouse.sqf" IsExpanded="false" FileName="core\housing\fn_sellHouse.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_sellHouseGarage.sqf" IsExpanded="false" FileName="core\housing\fn_sellHouseGarage.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="items" IsExpanded="true" FileName="core\items">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_blastingCharge.sqf" IsExpanded="false" FileName="core\items\fn_blastingCharge.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_boltcutter.sqf" IsExpanded="false" FileName="core\items\fn_boltcutter.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_defuseKit.sqf" IsExpanded="false" FileName="core\items\fn_defuseKit.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_flashbang.sqf" IsExpanded="false" FileName="core\items\fn_flashbang.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_jerryCanRefuel.sqf" IsExpanded="false" FileName="core\items\fn_jerryCanRefuel.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_jerryRefuel.sqf" IsExpanded="false" FileName="core\items\fn_jerryRefuel.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_lockpick.sqf" IsExpanded="false" FileName="core\items\fn_lockpick.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_placestorage.sqf" IsExpanded="false" FileName="core\items\fn_placestorage.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_spikeStrip.sqf" IsExpanded="false" FileName="core\items\fn_spikeStrip.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_storageBox.sqf" IsExpanded="false" FileName="core\items\fn_storageBox.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="medical" IsExpanded="true" FileName="core\medical">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_deathScreen.sqf" IsExpanded="false" FileName="core\medical\fn_deathScreen.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_medicLights.sqf" IsExpanded="false" FileName="core\medical\fn_medicLights.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_medicLoadout.sqf" IsExpanded="false" FileName="core\medical\fn_medicLoadout.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_medicMarkers.sqf" IsExpanded="false" FileName="core\medical\fn_medicMarkers.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_medicRequest.sqf" IsExpanded="false" FileName="core\medical\fn_medicRequest.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_medicSiren.sqf" IsExpanded="false" FileName="core\medical\fn_medicSiren.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_medicSirenLights.sqf" IsExpanded="false" FileName="core\medical\fn_medicSirenLights.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_onPlayerKilled.sqf" IsExpanded="false" FileName="core\medical\fn_onPlayerKilled.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_onPlayerRespawn.sqf" IsExpanded="false" FileName="core\medical\fn_onPlayerRespawn.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_requestMedic.sqf" IsExpanded="false" FileName="core\medical\fn_requestMedic.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_respawned.sqf" IsExpanded="false" FileName="core\medical\fn_respawned.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_revived.sqf" IsExpanded="false" FileName="core\medical\fn_revived.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_revivePlayer.sqf" IsExpanded="false" FileName="core\medical\fn_revivePlayer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="pmenu" IsExpanded="true" FileName="core\pmenu">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_cellphone.sqf" IsExpanded="false" FileName="core\pmenu\fn_cellphone.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_giveItem.sqf" IsExpanded="false" FileName="core\pmenu\fn_giveItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_giveMoney.sqf" IsExpanded="false" FileName="core\pmenu\fn_giveMoney.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_keyDrop.sqf" IsExpanded="false" FileName="core\pmenu\fn_keyDrop.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_keyGive.sqf" IsExpanded="false" FileName="core\pmenu\fn_keyGive.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_keyMenu.sqf" IsExpanded="false" FileName="core\pmenu\fn_keyMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_p_openMenu.sqf" IsExpanded="false" FileName="core\pmenu\fn_p_openMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_p_updateMenu.sqf" IsExpanded="false" FileName="core\pmenu\fn_p_updateMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_pardon.sqf" IsExpanded="false" FileName="core\pmenu\fn_pardon.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_removeItem.sqf" IsExpanded="false" FileName="core\pmenu\fn_removeItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_s_onChar.sqf" IsExpanded="false" FileName="core\pmenu\fn_s_onChar.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_s_onCheckedChange.sqf" IsExpanded="false" FileName="core\pmenu\fn_s_onCheckedChange.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_s_onSliderChange.sqf" IsExpanded="false" FileName="core\pmenu\fn_s_onSliderChange.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_settingsMenu.sqf" IsExpanded="false" FileName="core\pmenu\fn_settingsMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_updateViewDistance.sqf" IsExpanded="false" FileName="core\pmenu\fn_updateViewDistance.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_useItem.sqf" IsExpanded="false" FileName="core\pmenu\fn_useItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_wantedAddP.sqf" IsExpanded="false" FileName="core\pmenu\fn_wantedAddP.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_wantedInfo.sqf" IsExpanded="false" FileName="core\pmenu\fn_wantedInfo.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_wantedList.sqf" IsExpanded="false" FileName="core\pmenu\fn_wantedList.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_wantedMenu.sqf" IsExpanded="false" FileName="core\pmenu\fn_wantedMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="session" IsExpanded="true" FileName="core\session">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_dataQuery.sqf" IsExpanded="false" FileName="core\session\fn_dataQuery.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_insertPlayerInfo.sqf" IsExpanded="false" FileName="core\session\fn_insertPlayerInfo.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_requestReceived.sqf" IsExpanded="false" FileName="core\session\fn_requestReceived.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_syncData.sqf" IsExpanded="false" FileName="core\session\fn_syncData.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_updatePartial.sqf" IsExpanded="false" FileName="core\session\fn_updatePartial.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_updateRequest.sqf" IsExpanded="false" FileName="core\session\fn_updateRequest.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="shops" IsExpanded="true" FileName="core\shops">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_atmMenu.sqf" IsExpanded="false" FileName="core\shops\fn_atmMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_buyClothes.sqf" IsExpanded="false" FileName="core\shops\fn_buyClothes.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_changeClothes.sqf" IsExpanded="false" FileName="core\shops\fn_changeClothes.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_chopShopMenu.sqf" IsExpanded="false" FileName="core\shops\fn_chopShopMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_chopShopSelection.sqf" IsExpanded="false" FileName="core\shops\fn_chopShopSelection.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_chopShopSell.sqf" IsExpanded="false" FileName="core\shops\fn_chopShopSell.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_clothingFilter.sqf" IsExpanded="false" FileName="core\shops\fn_clothingFilter.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_clothingMenu.sqf" IsExpanded="false" FileName="core\shops\fn_clothingMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fuelLBChange.sqf" IsExpanded="false" FileName="core\shops\fn_fuelLBChange.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fuelStatOpen.sqf" IsExpanded="false" FileName="core\shops\fn_fuelStatOpen.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_impoundMenu.sqf" IsExpanded="false" FileName="core\shops\fn_impoundMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_levelCheck.sqf" IsExpanded="false" FileName="core\shops\fn_levelCheck.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleShop3DPreview.sqf" IsExpanded="false" FileName="core\shops\fn_vehicleShop3DPreview.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleShopBuy.sqf" IsExpanded="false" FileName="core\shops\fn_vehicleShopBuy.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleShopEnd3DPreview.sqf" IsExpanded="false" FileName="core\shops\fn_vehicleShopEnd3DPreview.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleShopInit3DPreview.sqf" IsExpanded="false" FileName="core\shops\fn_vehicleShopInit3DPreview.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleShopLBChange.sqf" IsExpanded="false" FileName="core\shops\fn_vehicleShopLBChange.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleShopMenu.sqf" IsExpanded="false" FileName="core\shops\fn_vehicleShopMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_virt_buy.sqf" IsExpanded="false" FileName="core\shops\fn_virt_buy.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_virt_menu.sqf" IsExpanded="false" FileName="core\shops\fn_virt_menu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_virt_sell.sqf" IsExpanded="false" FileName="core\shops\fn_virt_sell.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_virt_update.sqf" IsExpanded="false" FileName="core\shops\fn_virt_update.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_weaponShopAccs.sqf" IsExpanded="false" FileName="core\shops\fn_weaponShopAccs.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_weaponShopBuySell.sqf" IsExpanded="false" FileName="core\shops\fn_weaponShopBuySell.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_weaponShopFilter.sqf" IsExpanded="false" FileName="core\shops\fn_weaponShopFilter.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_weaponShopMags.sqf" IsExpanded="false" FileName="core\shops\fn_weaponShopMags.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_weaponShopMenu.sqf" IsExpanded="false" FileName="core\shops\fn_weaponShopMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_weaponShopSelection.sqf" IsExpanded="false" FileName="core\shops\fn_weaponShopSelection.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="vehicle" IsExpanded="true" FileName="core\vehicle">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_addVehicle2Chain.sqf" IsExpanded="false" FileName="core\vehicle\fn_addVehicle2Chain.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_colorVehicle.sqf" IsExpanded="false" FileName="core\vehicle\fn_colorVehicle.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_deviceMine.sqf" IsExpanded="false" FileName="core\vehicle\fn_deviceMine.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fuelRefuelCar.sqf" IsExpanded="false" FileName="core\vehicle\fn_fuelRefuelCar.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fuelStore.sqf" IsExpanded="false" FileName="core\vehicle\fn_fuelStore.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_fuelSupply.sqf" IsExpanded="false" FileName="core\vehicle\fn_fuelSupply.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_lockVehicle.sqf" IsExpanded="false" FileName="core\vehicle\fn_lockVehicle.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_openInventory.sqf" IsExpanded="false" FileName="core\vehicle\fn_openInventory.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleColor3DRefresh.sqf" IsExpanded="false" FileName="core\vehicle\fn_vehicleColor3DRefresh.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleOwners.sqf" IsExpanded="false" FileName="core\vehicle\fn_vehicleOwners.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleWeight.sqf" IsExpanded="false" FileName="core\vehicle\fn_vehicleWeight.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehInventory.sqf" IsExpanded="false" FileName="core\vehicle\fn_vehInventory.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehStoreItem.sqf" IsExpanded="false" FileName="core\vehicle\fn_vehStoreItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehTakeItem.sqf" IsExpanded="false" FileName="core\vehicle\fn_vehTakeItem.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vInteractionMenu.sqf" IsExpanded="false" FileName="core\vehicle\fn_vInteractionMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="clientValidator.sqf" IsExpanded="false" FileName="core\clientValidator.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="configuration.sqf" IsExpanded="false" FileName="core\configuration.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_initCiv.sqf" IsExpanded="false" FileName="core\fn_initCiv.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_initCop.sqf" IsExpanded="false" FileName="core\fn_initCop.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_initMedic.sqf" IsExpanded="false" FileName="core\fn_initMedic.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_setupActions.sqf" IsExpanded="false" FileName="core\fn_setupActions.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_setupEVH.sqf" IsExpanded="false" FileName="core\fn_setupEVH.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_setupStationService.sqf" IsExpanded="false" FileName="core\fn_setupStationService.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_survival.sqf" IsExpanded="false" FileName="core\fn_survival.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_welcomeNotification.sqf" IsExpanded="false" FileName="core\fn_welcomeNotification.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="init.sqf" IsExpanded="false" FileName="core\init.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+        </SubNodes>
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="dialog" IsExpanded="true" FileName="dialog">
+        <IsSelected>false</IsSelected>
+        <SubNodes>
+          <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="function" IsExpanded="false" FileName="dialog\function">
+            <IsSelected>false</IsSelected>
+            <SubNodes>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_bankDeposit.sqf" IsExpanded="false" FileName="dialog\function\fn_bankDeposit.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_bankTransfer.sqf" IsExpanded="false" FileName="dialog\function\fn_bankTransfer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_bankWithdraw.sqf" IsExpanded="false" FileName="dialog\function\fn_bankWithdraw.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_displayHandler.sqf" IsExpanded="false" FileName="dialog\function\fn_displayHandler.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangDeposit.sqf" IsExpanded="false" FileName="dialog\function\fn_gangDeposit.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_gangWithdraw.sqf" IsExpanded="false" FileName="dialog\function\fn_gangWithdraw.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_garageLBChange.sqf" IsExpanded="false" FileName="dialog\function\fn_garageLBChange.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_impoundMenu.sqf" IsExpanded="false" FileName="dialog\function\fn_impoundMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_progressBar.sqf" IsExpanded="false" FileName="dialog\function\fn_progressBar.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_safeFix.sqf" IsExpanded="false" FileName="dialog\function\fn_safeFix.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_safeInventory.sqf" IsExpanded="false" FileName="dialog\function\fn_safeInventory.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_safeOpen.sqf" IsExpanded="false" FileName="dialog\function\fn_safeOpen.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_safeStore.sqf" IsExpanded="false" FileName="dialog\function\fn_safeStore.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_safeTake.sqf" IsExpanded="false" FileName="dialog\function\fn_safeTake.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_sellGarage.sqf" IsExpanded="false" FileName="dialog\function\fn_sellGarage.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_setMapPosition.sqf" IsExpanded="false" FileName="dialog\function\fn_setMapPosition.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_spawnConfirm.sqf" IsExpanded="false" FileName="dialog\function\fn_spawnConfirm.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_spawnMenu.sqf" IsExpanded="false" FileName="dialog\function\fn_spawnMenu.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_spawnPointCfg.sqf" IsExpanded="false" FileName="dialog\function\fn_spawnPointCfg.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_spawnPointSelected.sqf" IsExpanded="false" FileName="dialog\function\fn_spawnPointSelected.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_unimpound.sqf" IsExpanded="false" FileName="dialog\function\fn_unimpound.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_vehicleGarage.sqf" IsExpanded="false" FileName="dialog\function\fn_vehicleGarage.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+              <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_wireTransfer.sqf" IsExpanded="false" FileName="dialog\function\fn_wireTransfer.sqf">
+                <IsSelected>false</IsSelected>
+                <SubNodes />
+              </ProjectNodeViewModel>
+            </SubNodes>
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="player_sys.sqf" IsExpanded="false" FileName="dialog\player_sys.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+        </SubNodes>
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="SpyGlass" IsExpanded="false" FileName="SpyGlass">
+        <IsSelected>false</IsSelected>
+        <SubNodes>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="endoftheline.sqf" IsExpanded="false" FileName="SpyGlass\endoftheline.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_cmdMenuCheck.sqf" IsExpanded="false" FileName="SpyGlass\fn_cmdMenuCheck.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_cookieJar.sqf" IsExpanded="false" FileName="SpyGlass\fn_cookieJar.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_initSpy.sqf" IsExpanded="false" FileName="SpyGlass\fn_initSpy.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_menuCheck.sqf" IsExpanded="false" FileName="SpyGlass\fn_menuCheck.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_notifyAdmins.sqf" IsExpanded="false" FileName="SpyGlass\fn_notifyAdmins.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_observe.sqf" IsExpanded="false" FileName="SpyGlass\fn_observe.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+          <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="fn_variableCheck.sqf" IsExpanded="false" FileName="SpyGlass\fn_variableCheck.sqf">
+            <IsSelected>false</IsSelected>
+            <SubNodes />
+          </ProjectNodeViewModel>
+        </SubNodes>
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="briefing.sqf" IsExpanded="false" FileName="briefing.sqf">
+        <IsSelected>false</IsSelected>
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="description.ext" IsExpanded="true" FileName="description.ext">
+        <IsSelected>false</IsSelected>
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="init.sqf" IsExpanded="false" FileName="init.sqf">
+        <IsSelected>false</IsSelected>
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="initPlayerLocal.sqf" IsExpanded="false" FileName="initPlayerLocal.sqf">
+        <IsSelected>false</IsSelected>
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="initPlayerServer.sqf" IsExpanded="false" FileName="initPlayerServer.sqf">
+        <IsSelected>false</IsSelected>
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="initServer.sqf" IsExpanded="false" FileName="initServer.sqf">
+        <IsSelected>false</IsSelected>
+        <SubNodes />
+      </ProjectNodeViewModel>
+      <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="KRON_Strings.sqf" IsExpanded="false" FileName="KRON_Strings.sqf">
+        <IsSelected>false</IsSelected>
+        <SubNodes />
+      </ProjectNodeViewModel>
+    </SubNodes>
+  </ProjectRootNode>
+  <FilteredAnalyzerResultItems />
+</Project>
