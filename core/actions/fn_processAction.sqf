@@ -115,12 +115,13 @@ if (_hasLicense) then {
     "progressBar" cutText ["","PLAIN"];
     if (_minimumConversions isEqualTo (_totalConversions call BIS_fnc_lowestNum)) then {hint localize "STR_NOTF_ItemProcess";} else {hint localize "STR_Process_Partial";};
     life_is_processing = false; life_action_inUse = false;
+	["ItemProcessed"] spawn mav_ttm_fnc_addExp;
 } else {
     if (CASH < _cost) exitWith {hint format [localize "STR_Process_License",[_cost] call life_fnc_numberText]; "progressBar" cutText ["","PLAIN"]; life_is_processing = false; life_action_inUse = false;};
 
     for "_i" from 0 to 1 step 0 do {
         sleep  0.9;
-        _cP = _cP + 0.01;
+        _cP = _cP + (0.01 * (missionNamespace getVariable ["mav_ttm_var_processMultiplier", 1]));
         _progress progressSetPosition _cP;
         _pgText ctrlSetText format ["%3 (%1%2)...",round(_cP * 100),"%",_upp];
         if (_cP >= 1) exitWith {};
@@ -144,4 +145,5 @@ if (_hasLicense) then {
     [0] call SOCK_fnc_updatePartial;
     life_is_processing = false;
     life_action_inUse = false;
+	["ItemProcessed"] spawn mav_ttm_fnc_addExp;
 };
