@@ -27,9 +27,9 @@ class playerHUD {
     /* Background */
     class Life_RscBackground_HUD: Life_RscBackground {
         colorBackground[] = {0,0,0,0.35};
-        x = 0.414815 * safezoneW + safezoneX;
+        x = 0.0 * safezoneW + safezoneX;
         y = 0.966667 * safezoneH + safezoneY;
-        w = 0.170371 * safezoneW;
+        w = 1.0 * safezoneW;
         h = 0.0333333 * safezoneH;
     };
 
