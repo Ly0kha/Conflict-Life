@@ -1,6 +1,6 @@
 /*
     File: init.sqf
-    Author: Penis
+    Author: 
     
     Description:
     
