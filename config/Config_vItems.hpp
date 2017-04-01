@@ -22,6 +22,13 @@ class VirtualShops {
         conditions = "";
         items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "defibrillator" };
     };
+	
+	class adac_market {
+        name = "STR_Shops_Market";
+        side = "adac";
+        conditions = "";
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach", "defibrillator" };
+    };
 
     class rebel {
         name = "STR_Shops_Rebel";

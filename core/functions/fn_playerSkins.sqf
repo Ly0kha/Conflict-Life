@@ -52,4 +52,9 @@ switch (playerSide) do {
             player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
         };
     };
+	case east: {
+		if (uniform player isEqualTo "U_B_CombatUniform_mcam") then {
+			player setObjectTextureGlobal [0, "textures\adac_uniform.jpg"];
+		};
+	};
 };

@@ -256,6 +256,42 @@
             <Portuguese>Equipamentos da Polícia</Portuguese>
             <Polish>Zbrojownia Policji</Polish>
         </Key>
+		<Key ID="STR_Shops_Adac">
+			<Original>ADAC Item Shop</Original>
+			<German>ADAC Gegenstände</German>
+			<Italian>articoli ADAC</Italian>
+			<French>articles ADAC</French>
+			<Portuguese>itens ADAC</Portuguese>
+			<Polish>szt ADAC</Polish>
+		</Key>
+		<Key ID="STR_CELL_AdacRequest">
+			<Original>ADAC</Original>
+			<German>ADAC Notruf</German>
+			<French>ADAC</French>
+			<Italian>ADAC</Italian>
+			<Portuguese>ADAC</Portuguese>
+			<Polish>ADAC</Polish>
+		</Key>
+		<Key ID="STR_Shop_NotaAdac">
+			<Original>You need to be a ADAC to use this store!</Original>
+			<German>Du musst ein ADAC sein, um diesen Shop nutzen zu können!</German>
+			<French>Vous devez être une voiture à utiliser ce magasin peut!</French>
+			<Italian>Si deve essere una cabina di utilizzare questo negozio può!</Italian>
+			<Portuguese>Você deve ser um carro para usar esta loja lata!</Portuguese>
+			<Polish>Musisz mieć samochód, aby skorzystać z tej sklepie można!</Polish>
+		</Key>
+		<Key ID="STR_MAR_Adac_Item_Shop">
+			<Original>ADAC Item Shop</Original>
+			<German>ADAC Ausrüstung</German>
+			<Portuguese>Loja de Items ADAC</Portuguese>
+			<Polish>Wyposażenie ADAC</Polish>
+		</Key>
+		<Key ID="STR_MAR_Adac_Clothing_Shop">
+			<Original>ADAC Clothing Shop</Original>
+			<German>ADAC Kleidungsladen</German>
+			<Portuguese>ADAC Roupa Loja</Portuguese>
+			<Polish>Sklep odzieżowy ADAC</Polish>
+		</Key>
         <Key ID="STR_Shops_Cement">
             <Original>Juan's Cement Laying</Original>
             <Czech>Juanovo Cement Pokládka</Czech>

@@ -23,6 +23,10 @@ switch (playerSide) do {
         ctrlShow[2012,false];
         ctrlShow[2011,false];
     };
+    case east: {
+        ctrlShow[2012,false];
+        ctrlShow[2011,false];
+    };
 };
 
 if (FETCH_CONST(life_adminlevel) < 1) then {

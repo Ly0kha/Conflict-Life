@@ -29,6 +29,7 @@ class Life_Client_Core {
         class initCiv {};
         class initCop {};
         class initMedic {};
+		class initAdac {};
         class setupActions {};
         class setupEVH {};
         class survival {};
@@ -143,6 +144,12 @@ class Life_Client_Core {
         class vehInvSearch {};
         class wantedGrab {};
     };
+	
+	class Adac { 
+		file = "core\adac"; 
+		class adacLoadout {}; 
+		class adacMarkers {}; 
+	};
 
     class Dialog_Controls {
         file = "dialog\function";

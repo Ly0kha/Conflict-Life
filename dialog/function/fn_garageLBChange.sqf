@@ -7,7 +7,7 @@
     Can't be bothered to answer it.. Already deleted it by accident..
 */
 disableSerialization;
-private["_control","_index","_className","_classNameLife","_dataArr","_vehicleColor","_vehicleInfo","_trunkSpace","_sellPrice","_retrievePrice","_sellMultiplier","_insurance","_insuranceMultiplier","_price","_storageFee","_purchasePrice","_insurancePrice"];
+private["_control","_index","_className","_classNameLife","_dataArr","_vehicleColor","_vehicleInfo","_trunkSpace","_sellPrice","_retrievePrice","_sellMultiplier","_price","_storageFee","_purchasePrice"];
 _control = _this select 0;
 _index = _this select 1;
 
@@ -16,10 +16,9 @@ _dataArr = CONTROL_DATAI(_control,_index);
 _dataArr = call compile format ["%1",_dataArr];
 _className = (_dataArr select 0);
 _classNameLife = _className;
-_insurance = (_dataArr select 2);
 
 if (!isClass (missionConfigFile >> "LifeCfgVehicles" >> _classNameLife)) then {
-    _classNameLife = "Default"; //Use Default class if it doesn't exist
+    _classNameLife = "Default"; //Use Default class if it doesn't exist_i
     diag_log format ["%1: LifeCfgVehicles class doesn't exist",_className];
 };
 
@@ -36,22 +35,18 @@ switch (playerSide) do {
  case civilian: {
  _purchasePrice = _price * LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_CIVILIAN");
  _sellMultiplier = LIFE_SETTINGS(getNumber,"vehicle_sell_multiplier_CIVILIAN");
- _insuranceMultiplier = LIFE_SETTINGS(getNumber,"vehicle_insurance_multiplier_CIVILIAN");
  };
  case west: {
  _purchasePrice = _price * LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_COP");
  _sellMultiplier = LIFE_SETTINGS(getNumber,"vehicle_sell_multiplier_COP");
- _insuranceMultiplier = LIFE_SETTINGS(getNumber,"vehicle_insurance_multiplier_COP");
  };
  case independent: {
  _purchasePrice = _price * LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_MEDIC");
  _sellMultiplier = LIFE_SETTINGS(getNumber,"vehicle_sell_multiplier_MEDIC");
- _insuranceMultiplier = LIFE_SETTINGS(getNumber,"vehicle_insurance_multiplier_MEDIC");
  };
  case east: {
  _purchasePrice = _price * LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_OPFOR");
  _sellMultiplier = LIFE_SETTINGS(getNumber,"vehicle_sell_multiplier_OPFOR");
- _insuranceMultiplier = LIFE_SETTINGS(getNumber,"vehicle_insurance_multiplier_OPFOR");
  };
 };
 _retrievePrice = _purchasePrice * _storageFee;
