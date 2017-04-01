@@ -1,14 +1,14 @@
 class CfgGather {
     class Resources {
         class apple {
-            amount = 5;
+            amount = 6;
             zones[] = { "apple_1", "apple_2", "apple_3", "apple_4" };
             item = "";
             zoneSize = 30;
         };
 
         class peach {
-            amount = 5;
+            amount = 6;
             zones[] = { "peaches_1", "peaches_2", "peaches_3", "peaches_4" };
             item = "";
             zoneSize = 30;
@@ -71,7 +71,7 @@ Example 2:
 
     class Minerals {
         class copper_unrefined {
-            amount = 2;
+            amount = 4;
             zones[] = { "copper_mine" };
             item = "pickaxe";
             mined[] = {"copper_unrefined"};
@@ -79,7 +79,7 @@ Example 2:
         };
 
         class iron_unrefined {
-            amount = 2;
+            amount = 4;
             zones[] = { "iron_mine" };
             item = "pickaxe";
             mined[] = { "iron_unrefined" };
@@ -87,7 +87,7 @@ Example 2:
         };
 
         class salt_unrefined {
-            amount = 2;
+            amount = 4;
             zones[] = { "salt_mine" };
             item = "pickaxe";
             mined[] = { "salt_unrefined" };
@@ -95,7 +95,7 @@ Example 2:
         };
 
         class sand {
-            amount = 2;
+            amount = 4;
             zones[] = { "sand_mine" };
             item = "pickaxe";
             mined[] = { "sand" };
@@ -103,7 +103,7 @@ Example 2:
         };
 
         class diamond_uncut {
-            amount = 2;
+            amount = 4;
             zones[] = { "diamond_mine" };
             item = "pickaxe";
             mined[] = { "diamond_uncut" };
@@ -111,7 +111,7 @@ Example 2:
         };
 
         class rock {
-            amount = 2;
+            amount = 4;
             zones[] = { "rock_quarry" };
             item = "pickaxe";
             mined[] = { "rock" };
@@ -119,7 +119,7 @@ Example 2:
         };
 
         class oil_unprocessed {
-            amount = 2;
+            amount = 4;
             zones[] = { "oil_field_1", "oil_field_2" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };

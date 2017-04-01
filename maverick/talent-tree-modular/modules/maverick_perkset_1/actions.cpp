@@ -4,16 +4,21 @@ class VehiclePurchased {
 };
 
 class ItemProcessed {
-    expToAdd = 2;
+    expToAdd = 10;
 	message = "Items Processed";
 };
 
 class VehicleLockpicked {
-    expToAdd = 5;
+    expToAdd = 15;
 	message = "Vehicle Lockpicked";
 };
 
-class Example {
-    expToAdd = 100;
-	message = "Customizable Message";
+class Farming {
+    expToAdd = 2;
+	message = "Abbauen";
+};
+
+class Running {
+    expToAdd = 5;
+	message = "1000m zurückgelegt";
 };

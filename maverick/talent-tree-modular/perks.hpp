@@ -4,3 +4,9 @@ class ExamplePerk1 {
 	requiredLevel = 1;
 	requiredPerk = "";
 };
+class Crafting {
+	displayName = "Crafting";
+	requiredPerkPoints = 2;
+	requiredLevel = 1;
+	requiredPerk = "";
+};

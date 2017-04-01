@@ -51,12 +51,18 @@ if ([true,_type,_amount] call life_fnc_handleInv) then {
 
         } else {
             if ((_price * _amount) > CASH) exitWith {[false,_type,_amount] call life_fnc_handleInv; hint localize "STR_NOTF_NotEnoughMoney";};
-            hint format [localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
+            //hint format [localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
+			_txt=format[localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
+			[false,_txt,false,5] call life_fnc_hint;
             CASH = CASH - _price * _amount;
         };
     } else {
-        if ((_price * _amount) > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"; [false,_type,_amount] call life_fnc_handleInv;};
-        hint format [localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
+        //if ((_price * _amount) > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"; [false,_type,_amount] call life_fnc_handleInv;};
+		if ((_price * _amount) > CASH) exitWith {["TaskFailed",["","Nicht genug Geld!"]] call BIS_fnc_showNotification; [false,_type,_amount] call life_fnc_handleInv;};
+        //hint format [localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
+		_txt = format[localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
+		//[false,_txt,false,5] call life_fnc_hint;
+		["TaskSucceeded",["",_txt]] call BIS_fnc_showNotification;
         CASH = CASH - _price * _amount;
     };
     [] call life_fnc_virt_update;

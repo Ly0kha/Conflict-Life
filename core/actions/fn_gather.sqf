@@ -63,14 +63,16 @@ switch (_requiredItem) do {
 
 for "_i" from 0 to 4 do {
     player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
-    waitUntil{animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";};
-    sleep 0.5;
+    waitUntil {
+        animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+    };
+    sleep 1.5;
 };
 
 if ([true,_resource,_diff] call life_fnc_handleInv) then {
     _itemName = M_CONFIG(getText,"VirtualItems",_resource,"displayName");
     titleText[format [localize "STR_NOTF_Gather_Success",(localize _itemName),_diff],"PLAIN"];
 };
-
-sleep 1;
+["Farming"] spawn mav_ttm_fnc_addExp;
+sleep 0.5;
 life_action_inUse = false;

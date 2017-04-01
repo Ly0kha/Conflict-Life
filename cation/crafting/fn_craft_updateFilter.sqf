@@ -33,7 +33,7 @@ _config = [];
 } forEach _category;
 {
     if ([(_x select 1)] call cat_system_fnc_levelCheck) then {
-        if (_itemFilter isEqualTo "item") then {
+        if (_itemFilter isEqualTo "item" || _itemFilter isEqualTo "item2" || _itemFilter isEqualTo "item3" || _itemFilter isEqualTo "item4" || _itemFilter isEqualTo "item5") then {
             _str = localize getText(missionConfigFile >> "VirtualItems" >> (_x select 0) >> "displayName");
             _inv lbAdd format["%1",_str];
             _inv lbSetData[(lbSize _inv)-1,_x select 0];

@@ -295,6 +295,15 @@ class playerSettings {
 			y = 0.805; 
 			w = (6.25 / 40); 
 			h = (1 / 25); 
-};
+		};
+		class ButtonSkll : Life_RscButtonMenu { 
+			idc = 3025; 
+			text = "Skillbaum"; 
+			onButtonClick = "createDialog ""TTM_GUI_RscDisplayTalentOverview"";"; 
+            x = 0.42 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
+            y = 0.805;
+            w = (6.25 / 40);
+            h = (1 / 25);
+		};
     };
 };

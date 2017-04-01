@@ -89,18 +89,26 @@ if (_diff isEqualTo 0) exitWith {
 };
 player say3D "mining";
 
-for "_i" from 0 to 4 do {
-    player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
-    waitUntil {
-        animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
-    };
-    sleep 0.5;
+player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+waitUntil {
+animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
 };
+uisleep 2.3;
+player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+waitUntil {
+animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+};
+uisleep 2.4;
+player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+waitUntil {
+animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+};
+uisleep 1;
 
 if (([true, _mined, _diff] call life_fnc_handleInv)) then {
     _itemName = M_CONFIG(getText, "VirtualItems", _mined, "displayName");
     titleText[format [localize "STR_NOTF_Mine_Success", (localize _itemName), _diff], "PLAIN"];
 };
-
-sleep 2.5;
+["Farming"] spawn mav_ttm_fnc_addExp;
+sleep 0.5;
 life_action_inUse = false;

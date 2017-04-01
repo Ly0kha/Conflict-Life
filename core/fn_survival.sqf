@@ -78,15 +78,20 @@ for "_i" from 0 to 1 step 0 do {
     };
 
     /* Check if the weight has changed and the player is carrying to much */
-    if (life_carryWeight > life_maxWeight && {!isForcedWalk player}) then {
+    if (life_carryWeight > 80 && {!isForcedWalk player}) then {
         player forceWalk true;
+		uiSleep 5;
         if (LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1) then {player setFatigue 1;};
-        hint localize "STR_NOTF_MaxWeight";
+        //hint localize "STR_NOTF_MaxWeight";
+		["zuschwer",["","Du trägst zu viele Item's bei dir!"]] call BIS_fnc_showNotification;
     } else {
         if (isForcedWalk player) then {
             player forceWalk false;
         };
     };
+	if (life_carryWeight > 80) then {
+		player action ["Eject", vehicle player];
+	};
 
     /* Travelling distance to decrease thirst/hunger which is captured every second so the distance is actually greater then 650 */
     if (!alive player) then {_walkDis = 0;} else {
@@ -94,11 +99,12 @@ for "_i" from 0 to 1 step 0 do {
         _curPos = (_curPos select 0) + (_curPos select 1);
         if (!(_curPos isEqualTo _lastPos) && {(isNull objectParent player)}) then {
             _walkDis = _walkDis + 1;
-            if (_walkDis isEqualTo 650) then {
+            if (_walkDis isEqualTo 1000) then {
                 _walkDis = 0;
                 life_thirst = life_thirst - 5;
                 life_hunger = life_hunger - 5;
                 [] call life_fnc_hudUpdate;
+				["Running"] spawn mav_ttm_fnc_addExp;
             };
         };
         _lastPos = visiblePosition player;

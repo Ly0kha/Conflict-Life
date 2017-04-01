@@ -105,6 +105,7 @@ switch (playerSide) do {
         };
     };
 	case east: { 
+		CONST(life_adaclevel,(_this select 7)); 
 		CONST(life_coplevel,0); 
 			if (LIFE_SETTINGS(getNumber,"save_playerStats") isEqualTo 1) then {
 			life_hunger = ((_this select 9) select 0);

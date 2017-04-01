@@ -152,7 +152,7 @@ class CarShops {
         side = "adac";
         conditions = "";
         vehicles[] = {
-            { "C_Offroad_01_F", "" },
+            { "B_Truck_01_mover_F", "" },
             { "I_Truck_02_medical_F", "" },
             { "O_Truck_03_medical_F", "" },
             { "B_Truck_01_medical_F", "" }
@@ -370,7 +370,7 @@ class LifeCfgVehicles {
     class B_Truck_01_medical_F {
         vItemSpace = 250;
         conditions = "";
-        price = 60000;
+        price = -60000;
         textures[] = {};
     };
 
@@ -883,6 +883,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 50000;
         conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
         price = 250000;
+        textures[] = {};
+    };
+    class B_Truck_01_mover_F {
+        vItemSpace = 50;
+        conditions = "";
+        price = -25000;
         textures[] = {};
     };
 };

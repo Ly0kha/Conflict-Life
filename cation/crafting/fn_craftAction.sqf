@@ -106,7 +106,61 @@ switch (_itemFilter) do {
             };
         };
     };
+	case "ammo": {
+		if (!(player canadd _newItem)) then {
+			_exit = true;
+			hint format[(getText(missionConfigFile >> "Cation_Crafting" >> "NoRoom"))];
+		};	
+	};
     case "item": {
+        _weight = [_item] call life_fnc_itemWeight;
+        _weightUsedItems = 0;
+        for [{_i=0},{_i<(count _matsNeed)-1},{_i=_i+2}] do {
+            _matsNum = _matsNeed select _i+1;
+            _weightUsedItems = _weightUsedItems + (([(_matsNeed select _i)] call life_fnc_itemWeight) * _matsNum);
+        };
+        if ((life_carryWeight - _weightUsedItems + _weight) > life_maxWeight) exitWith {
+            hint localize "STR_NOTF_NoRoom";
+            _exit = true;
+        };
+    };
+	case "item2": {
+        _weight = [_item] call life_fnc_itemWeight;
+        _weightUsedItems = 0;
+        for [{_i=0},{_i<(count _matsNeed)-1},{_i=_i+2}] do {
+            _matsNum = _matsNeed select _i+1;
+            _weightUsedItems = _weightUsedItems + (([(_matsNeed select _i)] call life_fnc_itemWeight) * _matsNum);
+        };
+        if ((life_carryWeight - _weightUsedItems + _weight) > life_maxWeight) exitWith {
+            hint localize "STR_NOTF_NoRoom";
+            _exit = true;
+        };
+    };
+	case "item3": {
+        _weight = [_item] call life_fnc_itemWeight;
+        _weightUsedItems = 0;
+        for [{_i=0},{_i<(count _matsNeed)-1},{_i=_i+2}] do {
+            _matsNum = _matsNeed select _i+1;
+            _weightUsedItems = _weightUsedItems + (([(_matsNeed select _i)] call life_fnc_itemWeight) * _matsNum);
+        };
+        if ((life_carryWeight - _weightUsedItems + _weight) > life_maxWeight) exitWith {
+            hint localize "STR_NOTF_NoRoom";
+            _exit = true;
+        };
+    };
+	case "item4": {
+        _weight = [_item] call life_fnc_itemWeight;
+        _weightUsedItems = 0;
+        for [{_i=0},{_i<(count _matsNeed)-1},{_i=_i+2}] do {
+            _matsNum = _matsNeed select _i+1;
+            _weightUsedItems = _weightUsedItems + (([(_matsNeed select _i)] call life_fnc_itemWeight) * _matsNum);
+        };
+        if ((life_carryWeight - _weightUsedItems + _weight) > life_maxWeight) exitWith {
+            hint localize "STR_NOTF_NoRoom";
+            _exit = true;
+        };
+    };
+	case "item5": {
         _weight = [_item] call life_fnc_itemWeight;
         _weightUsedItems = 0;
         for [{_i=0},{_i<(count _matsNeed)-1},{_i=_i+2}] do {
@@ -130,7 +184,31 @@ if (_exit) exitWith {
 };
 _oldItem = _matsNeed;
 
-if (_itemFilter == "item") then {
+if (_itemFilter isEqualTo "item") then {
+    _itemName = localize getText(missionConfigFile >> "VirtualItems" >> _newItem >> "displayName");
+} else {
+	_itemInfo = [_newItem] call life_fnc_fetchCfgDetails;
+	_itemName = _itemInfo select 1;
+};
+if (_itemFilter isEqualTo "item2") then {
+    _itemName = localize getText(missionConfigFile >> "VirtualItems" >> _newItem >> "displayName");
+} else {
+	_itemInfo = [_newItem] call life_fnc_fetchCfgDetails;
+	_itemName = _itemInfo select 1;
+};
+if (_itemFilter isEqualTo "item3") then {
+    _itemName = localize getText(missionConfigFile >> "VirtualItems" >> _newItem >> "displayName");
+} else {
+	_itemInfo = [_newItem] call life_fnc_fetchCfgDetails;
+	_itemName = _itemInfo select 1;
+};
+if (_itemFilter isEqualTo "item4") then {
+    _itemName = localize getText(missionConfigFile >> "VirtualItems" >> _newItem >> "displayName");
+} else {
+	_itemInfo = [_newItem] call life_fnc_fetchCfgDetails;
+	_itemName = _itemInfo select 1;
+};
+if (_itemFilter isEqualTo "item5") then {
     _itemName = localize getText(missionConfigFile >> "VirtualItems" >> _newItem >> "displayName");
 } else {
 	_itemInfo = [_newItem] call life_fnc_fetchCfgDetails;
@@ -149,6 +227,9 @@ _pgText = _ui displayCtrl 38202;
 _pgText ctrlSetText format["%2 (1%1)...","%",_upp];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
+
+
+
 _removeItemSuccess = true;
 _invSize = count _oldItem;
 for [{_i=0},{_i<_invSize-1},{_i=_i+2}] do {
@@ -159,6 +240,11 @@ if (!_removeItemSuccess) exitWith {5 cutText ["","PLAIN"]; life_is_processing = 
 
 for "_i" from 0 to 1 step 0 do {
     sleep 0.3;
+	if (animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
+        [player,"AinvPknlMstpSnonWnonDnon_medic_1",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
+        player switchMove "AinvPknlMstpSnonWnonDnon_medic_1";
+        player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
+    };
     _cP = _cP + 0.01;
     _progress progressSetPosition _cP;
     _pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
@@ -274,7 +360,30 @@ switch (_itemFilter) do {
             };
         };
     };
+	case "ammo": {
+		if(player canAdd _newItem) then{
+			player addMagazine _newitem;
+		}else{
+			hint "Inventar ist voll";
+		};
+    };
     case "item": {
+        _handledItem = _newItem;
+	    if (!([true,_handledItem,1] call life_fnc_handleInv)) then { _exit = true; };
+    };
+	case "item2": {
+        _handledItem = _newItem;
+	    if (!([true,_handledItem,1] call life_fnc_handleInv)) then { _exit = true; };
+    };
+	case "item3": {
+        _handledItem = _newItem;
+	    if (!([true,_handledItem,1] call life_fnc_handleInv)) then { _exit = true; };
+    };
+	case "item4": {
+        _handledItem = _newItem;
+	    if (!([true,_handledItem,1] call life_fnc_handleInv)) then { _exit = true; };
+    };
+	case "item5": {
         _handledItem = _newItem;
 	    if (!([true,_handledItem,1] call life_fnc_handleInv)) then { _exit = true; };
     };
