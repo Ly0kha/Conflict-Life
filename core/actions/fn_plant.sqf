@@ -27,13 +27,13 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
 };
 if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
 
-_pos=getPos player;
+_pos=getPosASL player;
 _cnt=0;
 if([false,_reqItem,1] call life_fnc_handleInv)then{
 	life_action_inUse = false;
 	{
 		_offpos =[0,0,(_offsets select _cnt)] vectorAdd _pos; 
-		_plant = _x createVehicle _offpos;
+		_plant = createSimpleObject [_x,_offpos];
 		if(_cnt== count(_models) -1) exitWith{_plant setVariable ["item",_item,true];};
 		uisleep (_times select _cnt);
 		deleteVehicle _plant;
