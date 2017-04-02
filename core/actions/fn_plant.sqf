@@ -1,4 +1,4 @@
-private["plantsCfg","_curConfig","_zoneSize","_plantzones","_zone","_models","_times","_offsets","_item","_reqItem","_cnt","_offpos","_pos","_plant"];
+private["_plantsCfg","_curConfig","_zoneSize","_plantzones","_zone","_models","_times","_offsets","_item","_reqItem","_cnt","_offpos","_pos","_plant"];
 
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
