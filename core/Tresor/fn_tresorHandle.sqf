@@ -14,6 +14,7 @@ _display = findDisplay 18504;
 _lbT = _display displayCtrl 1002;
 _lbInv = _display displayCtrl 1005;
 
+
 _myLB = "";
 _edit = "0";
 _handle	 = false;
@@ -41,6 +42,12 @@ if (!([_edit] call TON_fnc_isnumber)) exitWith {hint localize "STR_NOTF_notNumbe
 if (parseNumber(_edit) <= 0) exitWith {hint localize "STR_NOTF_enterAmountRemove";};
 if (lbCurSel _myLB < 0) exitwith {};
 
+if (isnil "TRESOR_HANDLE") then {
+	TRESOR_HANDLE = false;
+};
+if (TRESOR_HANDLE) exitwith {};
+TRESOR_HANDLE = true;
+
 _sel = lbCurSel _myLB;
 _data = (_myLB lbData _sel);
 
@@ -54,8 +61,8 @@ _space = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",(life_T
 switch(_mode) do {
 	
 	case 0: {
-		if (((life_TRESOR select 0) select 1) + _weight > _space) exitwith {hint localize "STR_NOTF_InvFull";}; 
-		if (!([false,_data,(parseNumber _edit)] call life_fnc_handleInv)) exitWith {hint localize "STR_NOTF_couldNotRemoveThatMuch";};
+		if (((life_TRESOR select 0) select 1) + _weight > _space) exitwith {hint localize "STR_NOTF_InvFull"; TRESOR_HANDLE = false;}; 
+		if (!([false,_data,(parseNumber _edit)] call life_fnc_handleInv)) exitWith {hint localize "STR_NOTF_couldNotRemoveThatMuch";TRESOR_HANDLE = false;};
 		
 		_deep = [((life_TRESOR select 0)select 0), _data] call BIS_fnc_findNestedElement;
 		
@@ -71,9 +78,9 @@ switch(_mode) do {
 	};
 	case 1: {
 		_item = ((((life_TRESOR select 0) select 0) select _sel));
-		if ((_item select 1) < (parseNumber _edit)) exitwith {hint localize "STR_NOTF_couldNotRemoveThatMuch";};
-		if ((_weight)+life_carryWeight > life_maxWeight) exitwith {hint localize "STR_NOTF_InvFull";};
-		if (!([true,_data,(parseNumber _edit)] call life_fnc_handleInv)) exitWith {hint localize "STR_NOTF_InvFull";};
+		if ((_item select 1) < (parseNumber _edit)) exitwith {hint localize "STR_NOTF_couldNotRemoveThatMuch"; TRESOR_HANDLE = false;};
+		if ((_weight)+life_carryWeight > life_maxWeight) exitwith {hint localize "STR_NOTF_InvFull"; TRESOR_HANDLE = false;};
+		if (!([true,_data,(parseNumber _edit)] call life_fnc_handleInv)) exitWith {hint localize "STR_NOTF_InvFull"; TRESOR_HANDLE = false;};
 		if (((_item select 1) - (parseNumber _edit)) <=0) then {
 			_arr = (((life_TRESOR select 0)select 0));
 			_arr set [_sel,-1];
@@ -87,8 +94,8 @@ switch(_mode) do {
 	};
 	case 2: {			
 		while {true} do {
-			if (((life_TRESOR select 0) select 1) + _weightI > _space) exitwith {}; 
-			if (!([false,_data,1] call life_fnc_handleInv)) exitWith {};
+			if (((life_TRESOR select 0) select 1) + _weightI > _space) exitwith {TRESOR_HANDLE = false;}; 
+			if (!([false,_data,1] call life_fnc_handleInv)) exitWith {TRESOR_HANDLE = false;};
 			_deep = [((life_TRESOR select 0) select 0), _data] call BIS_fnc_findNestedElement;			
 			if (count _deep < 2) then {	
 				_arr = (((life_TRESOR select 0)select 0));
@@ -114,6 +121,7 @@ switch(_mode) do {
 						(life_TRESOR select 0) set [1,(((life_TRESOR select 0) select 1) - _weightI)];
 					};
 				};
+				TRESOR_HANDLE = false;
 			}; 
 			if ((_weightI)+life_carryWeight > life_maxWeight) exitwith {hint localize "STR_NOTF_InvFull";};
 			if (!([true,_data,(1)] call life_fnc_handleInv)) exitWith {hint localize "STR_NOTF_InvFull";};			
@@ -124,6 +132,7 @@ switch(_mode) do {
 	};
 };
 
-if(!_handle) exitwith {};
+if(!_handle) exitwith {TRESOR_HANDLE = false;};
 [player, getPlayerUID player, (life_TRESOR select 0)] remoteExec ["DB_fnc_changeTresor",2];
 life_TRESOR spawn life_fnc_recItems;
+TRESOR_HANDLE = false;
