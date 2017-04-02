@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1189;
+		nextID=1195;
 	};
 	class MarkerIDProvider
 	{
-		nextID=224;
+		nextID=225;
 	};
 	class Camera
 	{
-		pos[]={7825.6177,116.33264,16129.253};
-		dir[]={-0.30740008,-0.41307727,-0.85724884};
-		up[]={-0.13943222,0.91069478,-0.38883603};
-		aside[]={-0.94131124,-5.5879354e-009,0.33754405};
+		pos[]={3083.6396,21.419598,18141.646};
+		dir[]={0.53286469,-0.24878621,0.80881053};
+		up[]={0.13687366,0.96855718,0.2077539};
+		aside[]={0.83506519,3.7485734e-008,-0.55016214};
 	};
 };
 binarizationWanted=0;
@@ -194,6 +194,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -208,24 +226,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -283,7 +283,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=879;
+		items=881;
 		class Item0
 		{
 			dataType="Marker";
@@ -1973,12 +1973,12 @@ class Mission
 		class Item168
 		{
 			dataType="Marker";
-			position[]={3319.884,-0.087620348,16587.537};
+			position[]={3292.6968,0,16611.703};
 			name="turtle_1_name_2";
 			text="@STR_MAR_Turtle_Poaching";
 			type="mil_dot";
 			id=170;
-			atlOffset=97.809975;
+			atlOffset=101.60643;
 		};
 		class Item169
 		{
@@ -37123,7 +37123,7 @@ class Mission
 			position[]={7829.9473,0,16126.896};
 			name="adac_car_1";
 			type="Empty";
-			angle=134.99896;
+			angle=134.99895;
 			id=1187;
 			atlOffset=-112.98411;
 		};
@@ -37133,9 +37133,33 @@ class Mission
 			position[]={7828.5562,0,16125.534};
 			name="adac_air_1";
 			type="Empty";
-			angle=134.99896;
+			angle=134.99895;
 			id=1188;
 			atlOffset=-112.92955;
+		};
+		class Item879
+		{
+			dataType="Marker";
+			position[]={3087.23,1.2373047,18120.176};
+			name="opium_1";
+			text="Opium Feld";
+			type="mil_dot";
+			colorName="Color1_FD_F";
+			id=1192;
+			atlOffset=-6.260066;
+		};
+		class Item880
+		{
+			dataType="Marker";
+			position[]={3087.2302,1.3251953,18120.176};
+			name="opium_area_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=30;
+			b=30;
+			id=1194;
+			atlOffset=-6.1721849;
 		};
 	};
 };
