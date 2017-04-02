@@ -19,7 +19,7 @@ class Life_Settings {
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
     saved_virtualItems[] = {
-		"opiumseed"
+		"opiumseed",
         "knife",
         "pickaxe",
         "fuelEmpty",
