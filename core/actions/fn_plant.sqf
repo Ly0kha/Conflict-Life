@@ -18,14 +18,14 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
     if (_zone != "") exitWith {};
 };
 
-_models = getArray (_curconfig >> "model");
-_times = getArray (_curconfig >> "time");
-_offsets = getArray (_curconfig >> "offset");
-_item= getText (_curconfig >> "item");
-_reqItem= getText (_curconfig >> "reqItem");
+_models = getArray (_curConfig >> "model");
+_times = getArray (_curConfig >> "time");
+_offsets = getArray (_curConfig >> "offset");
+_item= getText (_curConfig >> "item");
+_reqItem= getText (_curConfig >> "reqItem");
 _pos=getPosASL player;
 _cnt=0;
-if(([false,_reqItem,1] call life_fnc_handleInv))then{
+if([false,_reqItem,1] call life_fnc_handleInv)then{
 	foreach _models {
 		_offpos =[0,0,_offsets select _cnt] vectorAdd _pos; 
 		_plant = createSimpleObject [_models select _cnt,_offpos];

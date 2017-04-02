@@ -17,7 +17,7 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
     } forEach _plantZones;
     if (_zone != "") exitWith {};
 };
-_models = getArray (_curconfig >> "model");
+_models = getArray (_curConfig >> "model");
 _nearPlant=(nearestObjects [player, [_models select (count _models -1)], 3]) select 0;
 _grown=_nearPlant getVariable "item";
 _amount=getNumber(_curConfig >> "amount");
