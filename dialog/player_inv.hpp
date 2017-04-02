@@ -305,13 +305,5 @@ class playerSettings {
             w = (6.25 / 40);
             h = (1 / 25);
 		};
-		class ButtonTresor : Life_RscButtonMenu { 
-			idc = 3025; 
-			text = "Schließfach"; 
-            x = 0.85
-            y = 0.805;
-            w = (6.25 / 40);
-            h = (1 / 25);
-		};
     };
 };
