@@ -33,7 +33,7 @@ _near=false;
 for "_j" from 0 to count(_models)-1 do {
 	if(count (nearestObjects [position player, [], 2] select {typeOf _x == (_models select _j)})>0)exitWith{_near=true;};
 };
-if(_near==true)exitWith{life_action_inUse=false;};
+if(_near)exitWith{life_action_inUse=false;};
 if([false,_reqItem,1] call life_fnc_handleInv)then{
 	uisleep 2;
 	life_action_inUse = false;
