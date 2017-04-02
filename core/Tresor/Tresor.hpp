@@ -38,6 +38,7 @@ class TresorDialog {
            w = 0.26875 * safezoneW;
            h = 0.456024626209323 * safezoneH;
            onlbdblclick = "[3] spawn life_fnc_tresorHandle";
+		   sizeEx = 0.04;
        };
        class Life_RscText2 : Life_RscText
        {
@@ -65,6 +66,7 @@ class TresorDialog {
            w = 0.26875 * safezoneW;
            h = 0.456024626209323 * safezoneH;
            onlbdblclick = "[2] spawn life_fnc_tresorHandle";
+		   sizeEx = 0.04;
        };
        class EditTresor : Life_RscEdit
        {
