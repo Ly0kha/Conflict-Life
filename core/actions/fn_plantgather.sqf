@@ -8,6 +8,7 @@ if (player getVariable "playerSurrender") exitWith {hint localize "STR_NOTF_surr
 
 life_action_inUse = true;
 _plantsCfg = missionConfigFile >> "CfgPlants";
+_zone="";
 for "_i" from 0 to count(_plantsCfg)-1 do {
 
     _curConfig = _plantsCfg select _i;
@@ -20,11 +21,11 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
     } forEach _plantZones;
     if (_zone != "") exitWith {};
 };
-
+if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
 _nearPlant=(nearestObjects [player, [_models select (count _models -1)], 3]) select 0;
+if(count _nearPlant==0) exitWith{life_action_inUse = false;};
 _grown=_nearPlant getVariable "item";
-
-if(_grown == "") exitWith{life_action_inUse=false;};
+if(isNil "_grown") exitWith{life_action_inUse=false;};
 _diff = [_grown,_amount,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if (_diff isEqualTo 0) exitWith {
     hint localize "STR_NOTF_InvFull";

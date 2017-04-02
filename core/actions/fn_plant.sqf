@@ -8,6 +8,7 @@ if (player getVariable "playerSurrender") exitWith {hint localize "STR_NOTF_surr
 life_action_inUse = true;
 _plantsCfg = missionConfigFile >> "CfgPlants";
 _reqItem= "";
+_zone="";
 for "_i" from 0 to count(_plantsCfg)-1 do {
 
     _curConfig = _plantsCfg select _i;
