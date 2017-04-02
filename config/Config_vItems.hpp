@@ -862,26 +862,4 @@ class VirtualItems {
         edible = 100;
         icon = "icons\ico_muttonLeg.paa";
     };
-	
-	class opium {
-        variable = "opium";
-        displayName = "STR_Item_Opium";
-        weight = 1;
-        buyPrice = 68;
-        sellPrice = 55;
-        illegal = true;
-        edible = -1;
-        icon = "icons\ico_peach.paa";
-    };
-	
-	class opiumseed {
-        variable = "opiumseed";
-        displayName = "STR_Item_Opiumseed";
-        weight = 1;
-        buyPrice = 68;
-        sellPrice = 55;
-        illegal = true;
-        edible = -1;
-        icon = "icons\ico_peach.paa";
-    };
 };

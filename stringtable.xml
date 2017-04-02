@@ -6367,28 +6367,6 @@
             <Portuguese>Maconha Processada</Portuguese>
             <Polish>Marihuana</Polish>
         </Key>
-		<Key ID="STR_Item_Opium">
-            <Original>Opium</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German>Opium</German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
-		<Key ID="STR_Item_Opiumseed">
-            <Original>Opiumseed</Original>
-            <Czech></Czech>
-            <Spanish></Spanish>
-            <Russian></Russian>
-            <German>Opiumsamen</German>
-            <French></French>
-            <Italian></Italian>
-            <Portuguese></Portuguese>
-            <Polish></Polish>
-        </Key>
         <Key ID="STR_Item_RabbitRaw">
             <Original>Raw Rabbit</Original>
             <Czech>Raw Rabbit</Czech>
