@@ -6631,6 +6631,28 @@
             <Portuguese>Mutton Grelhado</Portuguese>
             <Polish>Grilowana Owca</Polish>
         </Key>
+		<Key ID="STR_Item_Opium">
+            <Original>Opium</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German>Opium</German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
+		<Key ID="STR_Item_Opiumseed">
+            <Original>Opiumseed</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German>Opiumsamen</German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
         <Key ID="STR_Item_FishingPole">
             <Original>Fishing Pole</Original>
             <Czech>Rybářský prut</Czech>
