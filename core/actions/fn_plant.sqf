@@ -7,6 +7,7 @@ if (player getVariable "playerSurrender") exitWith {hint localize "STR_NOTF_surr
 
 life_action_inUse = true;
 _plantsCfg = missionConfigFile >> "CfgPlants";
+_reqItem= "";
 for "_i" from 0 to count(_plantsCfg)-1 do {
 
     _curConfig = _plantsCfg select _i;
@@ -27,7 +28,7 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
 _pos=getPosASL player;
 _cnt=0;
 if([false,_reqItem,1] call life_fnc_handleInv)then{
-	foreach _models {
+	forEach _models {
 		_offpos =[0,0,(_offsets select _cnt)] vectorAdd _pos; 
 		_plant = createSimpleObject [_x,_offpos];
 		if(_cnt== count(_models) -1) exitWith{_plant setVariable ["item",_item,true];};
