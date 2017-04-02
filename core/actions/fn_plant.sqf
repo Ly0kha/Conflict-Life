@@ -18,7 +18,6 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
 	_times = getArray (_curConfig >> "time");
 	_offsets = getArray (_curConfig >> "offset");
 	_item= getText (_curConfig >> "item");
-	hint format ["Debug: %1", _item];
 	_reqItem= getText (_curConfig >> "reqItem");
     {
         if ((player distance (getMarkerPos _x)) < _zoneSize) exitWith {_zone = _x;};
