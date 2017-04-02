@@ -12,17 +12,18 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
     _curConfig = _plantsCfg select _i;
     _zoneSize = getNumber(_curConfig >> "zoneSize");
     _plantZones = getArray(_curConfig >> "zones");
+	_models = getArray (_curConfig >> "model");
+	_times = getArray (_curConfig >> "time");
+	_offsets = getArray (_curConfig >> "offset");
+	_item= getText (_curConfig >> "item");
+	_reqItem= getText (_curConfig >> "reqItem");
     {
         if ((player distance (getMarkerPos _x)) < _zoneSize) exitWith {_zone = _x;};
     } forEach _plantZones;
     if (_zone != "") exitWith {};
 };
 
-_models = getArray (_curConfig >> "model");
-_times = getArray (_curConfig >> "time");
-_offsets = getArray (_curConfig >> "offset");
-_item= getText (_curConfig >> "item");
-_reqItem= getText (_curConfig >> "reqItem");
+
 _pos=getPosASL player;
 _cnt=0;
 if([false,_reqItem,1] call life_fnc_handleInv)then{
