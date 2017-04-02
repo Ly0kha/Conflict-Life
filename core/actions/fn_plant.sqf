@@ -1,4 +1,4 @@
-private["_plantsCfg","_curConfig","_zoneSize","_plantzones","_zone","_models","_times","_offsets","_item","_reqItem","_cnt","_offpos","_pos","_plant"];
+private["_plantsCfg","_curConfig","_zoneSize","_plantZones","_zone","_models","_times","_offsets","_item","_reqItem","_cnt","_offpos","_pos","_plant"];
 
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
@@ -17,13 +17,14 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
 	_times = getArray (_curConfig >> "time");
 	_offsets = getArray (_curConfig >> "offset");
 	_item= getText (_curConfig >> "item");
+	hint format ["Debug: %1", _item];
 	_reqItem= getText (_curConfig >> "reqItem");
     {
         if ((player distance (getMarkerPos _x)) < _zoneSize) exitWith {_zone = _x;};
     } forEach _plantZones;
     if (_zone != "") exitWith {};
 };
-
+if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
 
 _pos=getPosASL player;
 _cnt=0;
