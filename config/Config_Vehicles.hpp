@@ -370,7 +370,7 @@ class LifeCfgVehicles {
     class B_Truck_01_medical_F {
         vItemSpace = 250;
         conditions = "";
-        price = -60000;
+        price = 60000;
         textures[] = {};
     };
 
@@ -888,7 +888,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class B_Truck_01_mover_F {
         vItemSpace = 50;
         conditions = "";
-        price = -25000;
+        price = 25000;
         textures[] = {};
     };
 };
