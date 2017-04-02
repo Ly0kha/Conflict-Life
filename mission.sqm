@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1195;
+		nextID=1199;
 	};
 	class MarkerIDProvider
 	{
-		nextID=225;
+		nextID=226;
 	};
 	class Camera
 	{
-		pos[]={3083.6396,21.419598,18141.646};
-		dir[]={0.53286469,-0.24878621,0.80881053};
-		up[]={0.13687366,0.96855718,0.2077539};
-		aside[]={0.83506519,3.7485734e-008,-0.55016214};
+		pos[]={10165.49,124.71453,15917.394};
+		dir[]={0.64826673,-0.51870131,0.55741131};
+		up[]={0.39330396,0.854954,0.33818164};
+		aside[]={0.6519773,-3.7951395e-008,-0.75824565};
 	};
 };
 binarizationWanted=0;
@@ -62,7 +62,8 @@ addons[]=
 	"A3_Structures_F_EPA_Items_Tools",
 	"A3_Structures_F_Mil_Flags",
 	"A3_Characters_F",
-	"A3_Characters_F_Exp_Civil"
+	"A3_Characters_F_Exp_Civil",
+	"A3_Structures_F_Mil_Shelters"
 };
 class AddonsMetaData
 {
@@ -283,7 +284,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=881;
+		items=884;
 		class Item0
 		{
 			dataType="Marker";
@@ -31837,8 +31838,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3479.3682,3.1977665,13230.852};
-						angles[]={0,5.6205015,6.2819896};
+						position[]={3479.3679,3.1979406,13230.852};
+						angles[]={0,5.6205015,6.281981};
 					};
 					side="Civilian";
 					flags=4;
@@ -31851,6 +31852,7 @@ class Mission
 					};
 					id=990;
 					type="C_man_p_fugitive_F_asia";
+					atlOffset=0.00017380714;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31872,7 +31874,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item46
@@ -37160,6 +37181,50 @@ class Mission
 			b=30;
 			id=1194;
 			atlOffset=-6.1721849;
+		};
+		class Item881
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10172.256,123.23772,15920.898};
+				angles[]={0,0.33055842,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1196;
+			type="CamoNet_OPFOR_F";
+			atlOffset=0.79580688;
+		};
+		class Item882
+		{
+			dataType="Marker";
+			position[]={10172.404,0,15920.843};
+			name="marker_225";
+			text="Schließfach";
+			type="mil_warning";
+			colorName="ColorOrange";
+			id=1197;
+			atlOffset=-121.19262;
+		};
+		class Item883
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={10172.569,121.78044,15922.049};
+				angles[]={-0,0.374598,0.042641956};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_schließfach"",life_fnc_openTres,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 5 '];";
+			};
+			id=1198;
+			type="Land_InfoStand_V2_F";
 		};
 	};
 };

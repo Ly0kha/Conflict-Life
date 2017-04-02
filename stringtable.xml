@@ -10006,6 +10006,9 @@
             <Portuguese>Loja de Equipamentos</Portuguese>
             <Polish>Sklep techniczny</Polish>
         </Key>
+		<Key ID="STR_MAR_schließfach">
+            <Original>Schließfach</Original>
+        </Key>
         <Key ID="STR_MAR_Civilian_Shops">
             <Original>Civilian Shops</Original>
             <Czech>civilní Obchody</Czech>
