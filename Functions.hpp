@@ -399,4 +399,12 @@ class Life_Client_Core {
 		class vehTakeAllItem {};			// Alle Items nehmen
 		class vehStoreAllItem {};			// Alle Items gleichzeitug einlagern
     };
+	
+class Tresor {
+        file = "core\Tresor";
+        class openTres {};
+        class recItems {};
+        class tresorHandle {};
+        class tresorUpgrade {};
+    };
 };
