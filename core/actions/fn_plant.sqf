@@ -30,6 +30,7 @@ if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
 _pos=getPosASL player;
 _cnt=0;
 if([false,_reqItem,1] call life_fnc_handleInv)then{
+	life_action_inUse = false;
 	{
 		_offpos =[0,0,(_offsets select _cnt)] vectorAdd _pos; 
 		_plant = createSimpleObject [_x,_offpos];
@@ -39,6 +40,6 @@ if([false,_reqItem,1] call life_fnc_handleInv)then{
 		_cnt=_cnt+1;
 	}forEach _models;
 }else{
+	life_action_inUse = false;
 	hint format ["Du hast keine %1 mehr",_reqItem];
 };
-life_action_inUse = false;
