@@ -7,6 +7,8 @@ overviewText = "$STR_MISC_overviewText";    // Text to be displayed below the ov
 #include "config\Config_Master.hpp"
 #include "maverick\maverick_master.cpp"
 #include "infiSTAR_AdminMenu.hpp"
+#include "core\Tresor\Tresor.hpp"
+#include "config\Config_Tresor.hpp"
 
 class CfgServer {
     DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
