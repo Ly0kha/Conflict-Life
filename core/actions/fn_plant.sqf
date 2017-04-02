@@ -1,4 +1,4 @@
-private["plantsCfg","_curConfig","_zoneSize","_plantzones","_zone","_models","_times","_offsets","_item","_reqItem","_cnt","_offpos","_pos","_plant"];
+private["plantsCfg","_curConfig","_zoneSize","_plantzones","_zone","_models","_times","_offsets","_item","_reqItem","_cnt","_offpos","_pos","_plant","_amount"];
 
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
@@ -17,7 +17,7 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
     } forEach _plantZones;
     if (_zone != "") exitWith {};
 };
-amount = 5;
+_amount = getNumber (_curconfig >> "amount");
 _models = getArray (_curconfig >> "model");
 _times = getArray (_curconfig >> "time");
 _offsets = getArray (_curconfig >> "offset");
