@@ -32,6 +32,7 @@ if (_diff isEqualTo 0) exitWith {
     life_action_inUse = false;
 };
 if ([true,_grown,_diff] call life_fnc_handleInv) then {
+	uisleep 2;
 	deleteVehicle _nearPlant;
     _itemName = M_CONFIG(getText,"VirtualItems",_grown,"displayName");
     titleText[format [localize "STR_NOTF_Gather_Success",(localize _itemName),_diff],"PLAIN"];
