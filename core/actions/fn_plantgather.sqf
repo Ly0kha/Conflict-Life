@@ -23,7 +23,7 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
 };
 if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
 _nearPlant=((nearestObjects [position player, [], 10] select {typeOf _x == (_models select (count _models -1))}) select 0);
-if(isNull _nearPlant) exitWith{life_action_inUse = false;};
+if(isNil "_nearPlant") exitWith{life_action_inUse = false;};
 _grown=_nearPlant getVariable "item";
 if(isNil "_grown") exitWith{life_action_inUse=false;};
 _diff = [_grown,_amount,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
@@ -31,8 +31,11 @@ if (_diff isEqualTo 0) exitWith {
     hint localize "STR_NOTF_InvFull";
     life_action_inUse = false;
 };
+player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+waitUntil {
+	animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+};
 if ([true,_grown,_diff] call life_fnc_handleInv) then {
-	uisleep 2;
 	deleteVehicle _nearPlant;
     _itemName = M_CONFIG(getText,"VirtualItems",_grown,"displayName");
     titleText[format [localize "STR_NOTF_Gather_Success",(localize _itemName),_diff],"PLAIN"];
