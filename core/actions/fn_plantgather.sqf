@@ -22,7 +22,7 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
     if (_zone != "") exitWith {};
 };
 if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
-_nearPlant=((nearestObjects [position player, [], 10] select {typeOf _x == (_models select (count _models -1))}) select 0)
+_nearPlant=((nearestObjects [position player, [], 10] select {typeOf _x == (_models select (count _models -1))}) select 0);
 if(isNull _nearPlant) exitWith{life_action_inUse = false;};
 _grown=_nearPlant getVariable "item";
 if(isNil "_grown") exitWith{life_action_inUse=false;};
