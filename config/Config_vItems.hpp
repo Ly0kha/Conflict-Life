@@ -862,4 +862,853 @@ class VirtualItems {
         edible = 100;
         icon = "icons\ico_muttonLeg.paa";
     };
+//############################################## Neue Items ###############################################
+	class plastik {
+		variable = "plastik";
+		displayName = "STR_Item_plastik";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = 62;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_plastik.paa";
+	};
+	
+	class aluminium {
+		variable = "aluminium";
+		displayName = "STR_Item_aluminium";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = 72;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_aluminium.paa";
+	};
+	
+	class silizium {
+		variable = "silizium";
+		displayName = "STR_Item_silizium";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = 71;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_silizium.paa";
+	};
+	
+	class tabak {
+		variable = "tabak";
+		displayName = "STR_Item_Tabak";
+		weight = 2;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_tabak.paa";
+	};
+	
+	class zigarre {
+		variable = "zigarre";
+		displayName = "STR_Item_Zigarre";
+		weight = 1;
+		buyPrice = 70;
+		sellPrice = 55.5;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_zigarre.paa";
+	};
+	
+	class kohle {
+		variable = "kohle";
+		displayName = "STR_Item_Kohle";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_Kohle.paa";
+	};
+	
+	class zuckerrohr {
+		variable = "zuckerrohr";
+		displayName = "STR_Item_zuckerrohr";
+		weight = 2;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_zuckerrohr.paa";
+	};
+	
+	class zucker {
+		variable = "zucker";
+		displayName = "STR_Item_zucker";
+		weight = 1;
+		buyPrice = 70;
+		sellPrice = 38;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_zucker.paa";
+	};
+	
+	class orangensaft {
+		variable = "orangensaft";
+		displayName = "STR_Item_orangensaft";
+		weight = 0.5;
+		buyPrice = -1;
+		sellPrice = 20;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_orangensaft.paa";
+	};
+	
+	class grapefruitsaft {
+		variable = "grapefruitsaft";
+		displayName = "STR_Item_grapefruitsaft";
+		weight = 0.5;
+		buyPrice = -1;
+		sellPrice = 20;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_grapefruitsaft.paa";
+	};
+	
+	class rum {
+		variable = "rum";
+		displayName = "STR_Item_rum";
+		weight = 0.5;
+		buyPrice = -1;
+		sellPrice = 68;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_rum.paa";
+	};
+	class baumstamm {
+		variable = "baumstamm";
+		displayName = "STR_Item_baumstamm";
+		weight = 2;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\wood.paa";
+	};
+
+	class holz {
+		variable = "holz";
+		displayName = "STR_Item_holz";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = 40;
+		illegal = false;
+		edible = -1;
+		icon = "icons\plank.paa";
+	};
+
+	class rubberU {
+		variable = "rubberU";
+		displayName = "STR_Item_rubberu";
+		weight = 2;
+		buyPrice = 89;
+		sellPrice = 31;
+		illegal = false;
+		edible = -1;
+		icon = "icons\rubberU.paa";
+	};
+
+	class rubber {
+		variable = "rubber";
+		displayName = "STR_Item_rubber";
+		weight = 1;
+		buyPrice = 120;
+		sellPrice = 70.5;
+		illegal = false;
+		edible = -1;
+		icon = "icons\rubber.paa";
+	};
+
+	class goldcoin {
+		variable = "goldcoin";
+		displayName = "STR_Item_goldcoin";
+		weight = 2;
+		buyPrice = 180;
+		sellPrice = 45;
+		illegal = false;
+		edible = -1;
+		icon = "icons\goldcoin.paa";
+	};
+
+	class nitroamine {
+		variable = "nitroamine";
+		displayName = "STR_Item_nitroamine";
+		weight = 2;
+		buyPrice = 160;
+		sellPrice = 87;
+		illegal = true;
+		edible = -1;
+		icon = "icons\nitroamine.paa";
+	};
+
+	class C4 {
+		variable = "C4";
+		displayName = "STR_Item_C4";
+		weight = 6;
+		buyPrice = 1202.5;
+		sellPrice = 650;
+		illegal = true;
+		edible = -1;
+		icon = "icons\C4.paa";
+	};
+
+	class steel {
+		variable = "steel";
+		displayName = "STR_Item_steel";
+		weight = 1;
+		buyPrice = 160;
+		sellPrice = 88;
+		illegal = false;
+		edible = -1;
+		icon = "icons\steel.paa";
+	};
+
+	class steelplate {
+		variable = "steelplate";
+		displayName = "STR_Item_steelplate";
+		weight = 1;
+		buyPrice = 150;
+		sellPrice = 99;
+		illegal = false;
+		edible = -1;
+		icon = "icons\steelplate.paa";
+	};
+
+	class wool {
+		variable = "wool";
+		displayName = "STR_Item_wool";
+		weight = 2;
+		buyPrice = -1;
+		sellPrice = 28;
+		illegal = false;
+		edible = -1;
+		icon = "icons\wool.paa";
+	};
+
+	class cloth {
+		variable = "cloth";
+		displayName = "STR_Item_cloth";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = 64.5;
+		illegal = false;
+		edible = -1;
+		icon = "icons\cloth.paa";
+	};
+
+	class sulfur {
+		variable = "sulfur";
+		displayName = "STR_Item_sulfur";
+		weight = 2;
+		buyPrice = -1;
+		sellPrice = 82;
+		illegal = true;
+		edible = -1;
+		icon = "icons\sulfur.paa";
+	};
+
+	class gunpowder {
+		variable = "gunpowder";
+		displayName = "STR_Item_gunpowder";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = 96;
+		illegal = true;
+		edible = -1;
+		icon = "icons\gunpowder.paa";
+	};
+
+	class beer {
+		variable = "beer";
+		displayName = "STR_Item_beer";
+		weight = 0.5;
+		buyPrice = -1;
+		sellPrice = 82;
+		illegal = false;
+		edible = 100;
+		icon = "icons\ico_beer.paa";
+	};
+
+	class whiskey {
+		variable = "whiskey";
+		displayName = "STR_Item_whiskey";
+		weight = 0.5;
+		buyPrice = -1;
+		sellPrice = 82;
+		illegal = false;
+		edible = 100;
+		icon = "icons\ico_whiskey.paa";
+	};
+
+	class moonshine {
+		variable = "moonshine";
+		displayName = "STR_Item_moonshine";
+		weight = 0.5;
+		buyPrice = -1;
+		sellPrice = 82;
+		illegal = false;
+		edible = 100;
+		icon = "icons\ico_moonshine.paa";
+	};
+
+	class nitro {
+        variable = "nitro";
+        displayName = "STR_Item_Nitro";
+        weight = 2;
+        buyPrice = 2500;
+        sellPrice = 2000;
+        illegal = true;
+        edible = -1;
+        icon = "icons\nitro.paa";
+	};
+
+	class blindfold {
+        variable = "blindfold";
+        displayName = "STR_Item_Blindfold";
+        weight = 0.5;
+        buyPrice = 500;
+        sellPrice = 200;
+        illegal = true;
+        edible = -1;
+        icon = "icons\blindfold.paa";
+	};
+
+	class schrott {
+        variable = "schrott";
+        displayName = "STR_Item_schrott";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 30;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_schrott.paa";
+	};
+	
+	class geodreieck {
+        variable = "geodreieck";
+        displayName = "STR_Item_geodreieck";
+        weight = 0.5;
+        buyPrice = 50;
+        sellPrice = 37;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_geodreieck.paa";
+	};
+	
+	class papier {
+        variable = "papier";
+        displayName = "STR_Item_papier";
+        weight = 0.1;
+        buyPrice = 95;
+        sellPrice = 30;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_papier.paa";
+	};
+	
+	//Crafting
+	class barrel {
+			variable = "barrel";
+			displayName = "STR_Item_Barrel";
+			weight = 1;
+			buyPrice = 1800;
+			sellPrice = -1;
+			illegal = true;
+			edible = -1;
+			icon = "icons\craft\barrel.paa";
+	};
+
+	class butt {
+			variable = "butt";
+			displayName = "STR_Item_Butt";
+			weight = 1;
+			buyPrice = 1600;
+			sellPrice = -1;
+			illegal = true;
+			edible = -1;
+			icon = "icons\craft\butt.paa";
+	};
+
+	class sight {
+			variable = "sight";
+			displayName = "STR_Item_Sight";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = true;
+			edible = -1;
+			icon = "icons\craft\sight.paa";
+	};
+
+	class trigger {
+			variable = "trigger";
+			displayName = "STR_Item_Trigger";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = true;
+			edible = -1;
+			icon = "icons\craft\trigger.paa";
+	};
+
+	class pistolenbauplan {
+			variable = "pistolenbauplan";
+			displayName = "STR_Item_pistolenbauplan";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\plans.paa";
+	};
+
+	class mpbauplan {
+			variable = "mpbauplan";
+			displayName = "STR_Item_mpbauplan";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\plans.paa";
+	};
+	
+	class gewehrbauplan {
+			variable = "gewehrbauplan";
+			displayName = "STR_Item_gewehrbauplan";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = true;
+			edible = -1;
+			icon = "icons\craft\plans.paa";
+	};
+	
+	class sturmgewehrbauplan {
+			variable = "sturmgewehrbauplan";
+			displayName = "STR_Item_sturmgewehrbauplan";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = true;
+			edible = -1;
+			icon = "icons\craft\plans.paa";
+	};
+//################################################## FAHRZEUGE ##################################################
+
+	class hemtttransport {
+		variable = "hemtttransport";
+		displayName = "STR_Item_hemtttransport";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\lkw.paa";
+	};
+	
+	class golf {
+		variable = "golf";
+		displayName = "Golf 2 GTI Babyblau";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_golf.paa";
+	};
+	
+	class tempestdevice {
+		variable = "tempestdevice";
+		displayName = "STR_Item_tempestdevice";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\lkw.paa";
+	};
+	class shounkafordgt {
+		variable = "shounkafordgt";
+		displayName = "STR_Item_shounkafordgt";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_golf.paa";
+	};
+	class supratuned {
+		variable = "supratuned";
+		displayName = "STR_Item_supratuned";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_golf.paa";
+	};
+	class mtvr_4X4 {
+		variable = "mtvr_4X4";
+		displayName = "STR_Item_mtvr_4X4";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\lkw.paa";
+	};
+	class mtvr_MK23 {
+		variable = "mtvr_MK23";
+		displayName = "STR_Item_mtvr_MK23";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\lkw.paa";
+	};
+	class mtvr_MK27 {
+		variable = "mtvr_MK27";
+		displayName = "STR_Item_mtvr_MK27";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\lkw.paa";
+	};
+	class mtvr_MK27T {
+		variable = "mtvr_MK27T";
+		displayName = "STR_Item_mtvr_MK27T";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\lkw.paa";
+	};
+//################################################## Helikopter ##################################################
+	class uh1c {
+		variable = "uh1c";
+		displayName = "STR_Item_uh1c";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class orcaschwarz {
+		variable = "orcaschwarz";
+		displayName = "STR_Item_orcaschwarz";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class as532red {
+		variable = "as532red";
+		displayName = "STR_Item_as532red";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class as532blue {
+		variable = "as532blue";
+		displayName = "STR_Item_as532blue";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class suprasecret {
+		variable = "suprasecret";
+		displayName = "STR_Item_suprasecret";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_golf.paa";
+	};
+	class cadieldorado {
+		variable = "cadieldorado";
+		displayName = "STR_Item_cadieldorado";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_golf.paa";
+	};
+	class corvettec1 {
+		variable = "corvettec1";
+		displayName = "STR_Item_corvettec1";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_golf.paa";
+	};
+	class am1964 {
+		variable = "am1964";
+		displayName = "STR_Item_am1964";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_golf.paa";
+	};
+	//##########################################################################
+	class aw159 {
+		variable = "aw159";
+		displayName = "STR_Item_aw159";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class sa330 {
+		variable = "sa330";
+		displayName = "STR_Item_sa330";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class mi17camo {
+		variable = "mi17camo";
+		displayName = "STR_Item_mi17camo";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class chinook {
+		variable = "chinook";
+		displayName = "STR_Item_chinook";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class mi6camo {
+		variable = "mi6camo";
+		displayName = "STR_Item_mi6camo";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class c47skytrain {
+		variable = "c47skytrain";
+		displayName = "STR_Item_c47skytrain";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class mv22 {
+		variable = "mv22";
+		displayName = "STR_Item_mv22";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class mv22cargo {
+		variable = "mv22cargo";
+		displayName = "STR_Item_mv22cargo";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class c130green {
+		variable = "c130green";
+		displayName = "STR_Item_c130green";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class c130greencargo {
+		variable = "c130greencargo";
+		displayName = "STR_Item_c130greencargo";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class c130black {
+		variable = "c130black";
+		displayName = "STR_Item_c130black";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\craft\heli.paa";
+	};
+	class belair {
+		variable = "belair";
+		displayName = "STR_Item_belair";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\ico_golf.paa";
+	};
+//################################################## AUTOTEILE ##################################################
+	class reifen {
+			variable = "reifen";
+			displayName = "STR_Item_reifen";
+			weight = 0.5;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\reifen.paa";
+	};
+	class engine {
+			variable = "engine";
+			displayName = "STR_Item_Engine";
+			weight = 0.5;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\engine.paa";
+	};
+	class karosserie {
+			variable = "karosserie";
+			displayName = "STR_Item_karosserie";
+			weight = 0.5;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\karosserie.paa";
+	};
+	class autoglas {
+			variable = "autoglas";
+			displayName = "STR_Item_autoglas";
+			weight = 0.5;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\autoglas.paa";
+	};
+	class elektroteile {
+			variable = "elektroteile";
+			displayName = "STR_Item_elektroteile";
+			weight = 0.5;
+			buyPrice = -1;
+			sellPrice = -1;
+			illegal = false;
+			edible = -1;
+			icon = "icons\craft\elektroteile.paa";
+	};
+//################################################## Mundknebel ##################################################
+	class gagkit {
+			variable = "gagkit";
+			displayName = "STR_Item_Gagkit";
+			weight = 0.5;
+			buyPrice = 1000;
+			sellPrice = 500;
+			illegal = true;
+			edible = -1;
+			icon = "icons\nitro.paa";
+	};
+	//################################################# Krabben #####################################################
+	class blaukrabbe {
+			variable = "blaukrabbe";
+			displayName = "STR_Item_blaukrabbe";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = 45;
+			illegal = false;
+			edible = -1;
+			icon = "icons\blaukrabbe.paa";
+	};
+	class schneekrabbe {
+			variable = "schneekrabbe";
+			displayName = "STR_Item_schneekrabbe";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = 68;
+			illegal = false;
+			edible = -1;
+			icon = "icons\schneekrabbe.paa";
+	};
+	class koenigskrabbe {
+			variable = "koenigskrabbe";
+			displayName = "STR_Item_koenigskrabbe";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = 85;
+			illegal = false;
+			edible = -1;
+			icon = "icons\koenigskrabbe.paa";
+	};
+	class krabbenkaefig {
+			variable = "krabbenkaefig";
+			displayName = "STR_Item_krabbenkaefig";
+			weight = 1;
+			buyPrice = 500;
+			sellPrice = 450;
+			illegal = false;
+			edible = -1;
+			icon = "icons\krabbenkaefig.paa";
+	};
+	class hummer {
+			variable = "hummer";
+			displayName = "STR_Item_hummer";
+			weight = 1;
+			buyPrice = -1;
+			sellPrice = 115;
+			illegal = true;
+			edible = -1;
+			icon = "icons\hummer.paa";
+	};
 };

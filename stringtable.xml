@@ -6994,6 +6994,298 @@
             <Portuguese>Tapete de Espinhos</Portuguese>
             <Polish>Kolczatka drogowa</Polish>
         </Key>
+		<Key ID="STR_Item_gunpowder">
+			<Original>Schwarzpulver</Original>
+		</Key>
+		<Key ID="STR_Item_whiskey">
+			<Original>Whiskey</Original>
+		</Key>
+		<Key ID="STR_Item_beer">
+			<Original>Bier</Original>
+		</Key>
+		<Key ID="STR_Item_moonshine">
+			<Original>Moonshine</Original>
+		</Key>
+		<Key ID="STR_Item_C4">
+			<Original>C4 Block</Original>
+		</Key>
+		<Key ID="STR_Item_goldcoin">
+			<Original>Old Coin</Original>
+		</Key>
+		<Key ID="STR_Item_nitroamine">
+			<Original>Bauxit</Original>
+		</Key>
+		<Key ID="STR_Item_baumstamm">
+			<Original>Baumstamm</Original>
+		</Key>
+		<Key ID="STR_Item_holz">
+			<Original>Holzbretter</Original>
+		</Key>
+		<Key ID="STR_Item_steel">
+			<Original>Stahl</Original>
+		</Key>
+		<Key ID="STR_Item_steelplate">
+			<Original>Stahl Platten</Original>
+		</Key>
+		<Key ID="STR_Item_wool">
+			<Original>Wolle</Original>
+		</Key>
+		<Key ID="STR_Item_cloth">
+			<Original>Stoff</Original>
+		</Key>
+		<Key ID="STR_Item_rubberU">
+			<Original>Unverarbeitetes Gummi</Original>
+		</Key>
+		<Key ID="STR_Item_rubber">
+			<Original>Gummi</Original>
+		</Key>
+		<Key ID="STR_Item_sulfur">
+			<Original>Schwefel</Original>
+		</Key>
+		<Key ID="STR_Item_gpstracker">
+			<Original>GPS Tracker</Original>
+		</Key>
+		<Key ID="STR_Item_Blindfold">
+		<Original>Überzieher-Sack</Original>
+		</Key>
+		<Key ID="STR_Item_Rock">
+			<Original>Rock</Original>
+			<Czech>Skála</Czech>
+			<Spanish>Piedra</Spanish>
+			<Russian></Russian>
+			<German>Stein</German>
+			<French>Pierre</French>
+			<Italian>Roccia</Italian>
+			<Portuguese>Pedra</Portuguese>
+			<Polish>Skała</Polish>
+		</Key>
+		<Key ID="STR_Item_CementBag">
+			<Original>Cement Bag</Original>
+			<German>Zement Sack</German>
+		</Key>
+		<Key ID="STR_Item_reifen">
+			<Original>Reifen</Original>
+			<German>Reifen</German>
+		</Key>
+		<Key ID="STR_Item_karosserie">
+			<Original>Karosserie</Original>
+			<German>Karosserie</German>
+		</Key>
+		<Key ID="STR_Item_autoglas">
+			<Original>Autoglas</Original>
+			<German>Autoglas</German>
+		</Key>
+		<Key ID="STR_Item_elektroteile">
+			<Original>Elektroteile</Original>
+			<German>Elektroteile</German>
+		</Key>
+		<Key ID="STR_Item_plastik">
+			<Original>Plastik</Original>
+			<German>Plastik</German>
+		</Key>
+		<Key ID="STR_Item_aluminium">
+			<Original>Aluminium</Original>
+			<German>Aluminium</German>
+		</Key>
+		<Key ID="STR_Item_silizium">
+			<Original>Silizium</Original>
+			<German>Silizium</German>
+		</Key>
+		<Key ID="STR_Item_Tabak">
+			<Original>Tabak</Original>
+			<German>Tabak</German>
+		</Key>
+		<Key ID="STR_Item_Kohle">
+			<Original>Kohle</Original>
+			<German>Kohle</German>
+		</Key>
+		<Key ID="STR_Item_Zigarre">
+			<Original>Zigarre</Original>
+			<German>Zigarre</German>
+		</Key>
+		<Key ID="STR_Item_zuckerrohr">
+			<Original>Zuckerrohr</Original>
+			<German>Zuckerrohr</German>
+		</Key>
+		<Key ID="STR_Item_zucker">
+			<Original>Zucker</Original>
+			<German>Zucker</German>
+		</Key>
+		<Key ID="STR_Item_orangensaft">
+			<Original>Orangensaft</Original>
+			<German>Orangensaft</German>
+		</Key>
+		<Key ID="STR_Item_grapefruitsaft">
+			<Original>Grapefruitsaft</Original>
+			<German>Grapefruitsaft</German>
+		</Key>
+		<Key ID="STR_Item_rum">
+			<Original>Rum</Original>
+			<German>Rum</German>
+		</Key>
+		<Key ID="STR_Item_geodreieck">
+			<Original>Geodreieck/Zirkel</Original>
+			<German>Geodreieck/Zirkel</German>
+		</Key>
+		<Key ID="STR_Item_schrott">
+			<Original>Schrott</Original>
+			<German>Schrott</German>
+		</Key>
+		<Key ID="STR_Item_papier">
+			<Original>Papier</Original>
+			<German>Papier</German>
+		</Key>
+		<Key ID="STR_Item_GoldBar">
+			<Original>Gold Bar</Original>
+			<German>Goldbarren</German>
+		</Key>
+		<Key ID="STR_Item_Barrel">
+		 <Original>Waffenlauf</Original>
+		</Key>
+		<Key ID="STR_Item_Butt">
+		<Original>Waffenschaft</Original>
+		</Key>
+		<Key ID="STR_Item_Sight">
+		<Original>Waffenschlitten</Original>
+		</Key>
+		<Key ID="STR_Item_Trigger">
+		<Original>Waffenabzug</Original>
+		</Key>
+		<Key ID="STR_Item_Nitro">
+		<Original>Nitro</Original>
+		</Key>
+		<Key ID="STR_Item_Engine">
+		<Original>Motor</Original>
+		</Key>
+		<Key ID="STR_Item_Plans">
+		<Original>Bauplan</Original>
+		</Key>
+		<Key ID="STR_Item_pistolenbauplan">
+		<Original>Pistolen Bauplan</Original>
+		</Key>
+		<Key ID="STR_Item_mpbauplan">
+		<Original>MP Bauplan</Original>
+		</Key>
+		<Key ID="STR_Item_gewehrbauplan">
+		<Original>Gewehr Bauplan</Original>
+		</Key>
+		<Key ID="STR_Item_sturmgewehrbauplan">
+		<Original>Sturmgewehr Bauplan</Original>
+		</Key>
+		<Key ID="STR_Item_rivet">
+		<Original>Rivets</Original>
+		</Key>
+		<Key ID="STR_Item_latch">
+		<Original>Latch</Original>
+		</Key>
+		<Key ID="STR_Item_hemtttransport">
+		<Original>'Bauplan' HEMTT Transport</Original>
+		</Key>
+		<Key ID="STR_Item_tempestdevice">
+		<Original>'Bauplan' Tempest Gerät</Original>
+		</Key>
+		<Key ID="STR_Item_uh1c">
+		<Original>'Bauplan' UH1C Huey</Original>
+		</Key>
+		<Key ID="STR_Item_orcaschwarz">
+		<Original>'Bauplan' Orca Schwarz</Original>
+		</Key>
+		<Key ID="STR_Item_as532red">
+		<Original>'Bauplan' AS-532 Rot (Heli)</Original>
+		</Key>
+		<Key ID="STR_Item_as532blue">
+		<Original>'Bauplan' AS-532 Blau (Heli)</Original>
+		</Key>
+		<Key ID="STR_Item_shounkafordgt">
+		<Original>'Bauplan' Ford GT</Original>
+		</Key>
+		<Key ID="STR_Item_supratuned">
+		<Original>'Bauplan' Toyota Supra Tuned</Original>
+		</Key>
+		<Key ID="STR_Item_mtvr_4X4">
+		<Original>'Bauplan' MTVR 4X4 Short</Original>
+		</Key>
+		<Key ID="STR_Item_mtvr_MK23">
+		<Original>'Bauplan' MTVR MK23</Original>
+		</Key>
+		<Key ID="STR_Item_mtvr_MK27">
+		<Original>'Bauplan' MTVR MK27</Original>
+		</Key>
+		<Key ID="STR_Item_mtvr_MK27T">
+		<Original>'Bauplan' MTVR MK27 Plane</Original>
+		</Key>
+		<Key ID="STR_Item_suprasecret">
+		<Original>'Bauplan' Toyota Supra Secret</Original>
+		</Key>
+		<Key ID="STR_Item_cadieldorado">
+		<Original>'Bauplan' Cadillac Eldorado</Original>
+		</Key>
+		<Key ID="STR_Item_corvettec1">
+		<Original>'Bauplan' Chevrolet Corvette C1</Original>
+		</Key>
+		<Key ID="STR_Item_am1964">
+		<Original>'Bauplan' Aston Martin DB5 1964</Original>
+		</Key>
+		<Key ID="STR_Item_mv22">
+		<Original>'Bauplan' MV-22 Osprey</Original>
+		</Key>
+		<Key ID="STR_Item_mv22cargo">
+		<Original>'Bauplan' MV-22 Osprey Cargo</Original>
+		</Key>
+		<Key ID="STR_Item_mi6camo">
+		<Original>'Bauplan' Mi-6T Camo</Original>
+		</Key>
+		<Key ID="STR_Item_mi17camo">
+		<Original>'Bauplan' Mi-17 Camo</Original>
+		</Key>
+		<Key ID="STR_Item_c130black">
+		<Original>'Bauplan' C-130 Black Edition</Original>
+		</Key>
+		<Key ID="STR_Item_c130green">
+		<Original>'Bauplan' C-130 Grün</Original>
+		</Key>
+		<Key ID="STR_Item_c130greencargo">
+		<Original>'Bauplan' C-130 Grün Cargo</Original>
+		</Key>
+		<Key ID="STR_Item_aw159">
+		<Original>'Bauplan' AW-159 Unarmed</Original>
+		</Key>
+		<Key ID="STR_Item_sa330">
+		<Original>'Bauplan' SA-330 Puma</Original>
+		</Key>
+		<Key ID="STR_Item_hmmwv">
+		<Original>'Bauplan' HMMWV</Original>
+		</Key>
+		<Key ID="STR_Item_merlinhc3">
+		<Original>'Bauplan' Merlin HC-3</Original>
+		</Key>
+		<Key ID="STR_Item_chinook">
+		<Original>'Bauplan' C47 Chinook</Original>
+		</Key>
+		<Key ID="STR_Item_c47skytrain">
+		<Original>'Bauplan' C-47 Skytrain Camo</Original>
+		</Key>
+		<Key ID="STR_Item_ch53">
+		<Original>'Bauplan' CH-53 Super Stallion</Original>
+		</Key>
+		<Key ID="STR_Item_belair">
+		<Original>'Bauplan' Chevrolet Bel Air</Original>
+		</Key>
+		<Key ID="STR_Item_schneekrabbe">
+		<Original>Schneekrabbe</Original>
+		</Key>
+		<Key ID="STR_Item_blaukrabbe">
+		<Original>Blaukrabbe</Original>
+		</Key>
+		<Key ID="STR_Item_koenigskrabbe">
+		<Original>Koenigskrabbe</Original>
+		</Key>
+		<Key ID="STR_Item_krabbenkaefig">
+		<Original>Krabbenkaefig</Original>
+		</Key>
+		<Key ID="STR_Item_hummer">
+		<Original>Hummer</Original>
+		</Key>
     </Package>
     <Package name="Life_License">
         <Key ID="STR_License_Driver">
