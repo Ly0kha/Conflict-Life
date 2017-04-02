@@ -34,7 +34,7 @@ if([false,_reqItem,1] call life_fnc_handleInv)then{
 		_offpos =[0,0,(_offsets select _cnt)] vectorAdd _pos; 
 		_plant = createSimpleObject [_x,_offpos];
 		if(_cnt== count(_models) -1) exitWith{_plant setVariable ["item",_item,true];};
-		uisleep _times;
+		uisleep (_times select _cnt);
 		deleteVehicle _plant;
 		_cnt=_cnt+1;
 	}forEach _models;
