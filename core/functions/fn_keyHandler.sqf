@@ -64,6 +64,17 @@ switch (_code) do {
             _handled = true;
         };
     };
+	//Q Key
+	case 16: {
+        [] spawn life_fnc_plant;
+        _handled = true;
+    };
+	//E Key
+	case 18: {
+		[] spawn life_fnc_plantgather;
+        _handled = true;
+    };
+
 
     //Space key for Jumping
     case 57: {

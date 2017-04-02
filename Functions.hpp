@@ -72,6 +72,8 @@ class Life_Client_Core {
         class surrender {};
         class ticketAction {};
         class unrestrain {};
+		class plant{};
+		class plantgather{};
     };
 
     class Admin {
