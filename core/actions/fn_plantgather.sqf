@@ -35,6 +35,7 @@ player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
 waitUntil {
 	animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
 };
+uisleep 1.5;
 if ([true,_grown,_diff] call life_fnc_handleInv) then {
 	deleteVehicle _nearPlant;
     _itemName = M_CONFIG(getText,"VirtualItems",_grown,"displayName");
