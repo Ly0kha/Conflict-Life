@@ -133,7 +133,7 @@ class CfgSpawnPoints {
 };
 
     class RL_Map {
-        class OmmsenCity {
+        class Civilian {
             class Kavala {
                 displayName = "Ommsen City";
                 spawnMarker = "civ_spawn_1";
