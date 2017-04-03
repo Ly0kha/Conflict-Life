@@ -8,6 +8,11 @@
 disableSerialization;
 waitUntil {!isNull (findDisplay 18504)};
 _display = findDisplay 18504;
+if (isnil "TRESOR_CALC") then {
+ TRESOR_CALC = false;
+};
+if (TRESOR_CALC) exitwith {};
+TRESOR_CALC = true;
 
 _upgradeBT = _display displayCtrl 1013;
 _upgradeText = _display displayCtrl 1014;
@@ -84,3 +89,6 @@ if (_upgrade > 0) then {
 } else {
 	_openTresText ctrlSetText "Du besitzt kein Fach.";
 };
+
+sleep (random 0.3);
+TRESOR_CALC = false;

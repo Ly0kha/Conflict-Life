@@ -10,7 +10,7 @@
 */
 class CfgSpawnPoints {
 
-    class Altis {
+    class RL_Map {
         class Civilian {
             class Kavala {
                 displayName = "Kavala";

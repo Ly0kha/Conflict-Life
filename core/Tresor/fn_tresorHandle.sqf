@@ -42,6 +42,7 @@ if (!([_edit] call TON_fnc_isnumber)) exitWith {hint localize "STR_NOTF_notNumbe
 if (parseNumber(_edit) <= 0) exitWith {hint localize "STR_NOTF_enterAmountRemove";};
 if (lbCurSel _myLB < 0) exitwith {};
 
+if (TRESOR_CALC) exitwith {};
 if (isnil "TRESOR_HANDLE") then {
 	TRESOR_HANDLE = false;
 };
@@ -77,6 +78,8 @@ switch(_mode) do {
 		_handle	 = true;
 	};
 	case 1: {
+		_arr = (((life_TRESOR select 0)select 0));
+		if (count _arr < 1) exitwith {TRESOR_HANDLE = false;};
 		_item = ((((life_TRESOR select 0) select 0) select _sel));
 		if ((_item select 1) < (parseNumber _edit)) exitwith {hint localize "STR_NOTF_couldNotRemoveThatMuch"; TRESOR_HANDLE = false;};
 		if ((_weight)+life_carryWeight > life_maxWeight) exitwith {hint localize "STR_NOTF_InvFull"; TRESOR_HANDLE = false;};
