@@ -9,4 +9,14 @@ class CfgPlants {
 		zoneSize = 30;
 		reqItem = "opiumseed";
 	};
+	class Apfelbaum {
+		amount = 5;
+		model[] = { "CUP_t_malus1s", "CUP_t_malus1s", "CUP_t_malus1s", "CUP_t_malus1s", "CUP_t_malus1s", "CUP_t_malus1s", "CUP_t_malus1s" };
+		time[] = {10,10,10,10,10,10,0};
+		offset[] = {-6,-5,-4,-3,-2,-1,0};
+		zones[] = { "apple_1", "apple_2", "apple_3", "apple_4", "apple_5",};
+		item = "apple";
+		zoneSize = 30;
+		reqItem = "opiumseed";
+	};
 };
