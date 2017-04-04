@@ -27,16 +27,15 @@ _cost = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",_upgrade
 _spaceU = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",_upgrade+1]) >> "space");
 	
 if (_cost > CASH && _cost > BANK) exitwith {
-	hint "Nicht genug Geld!"; // nicht genug Geld... weg mit der action! ~ Cash und Bank werden gezählt... 
+	["TaskFailed",["","Nicht genug Geld!"]] call BIS_fnc_showNotification;
 };
-hint format ["Upgrade kostete %1$", _cost];
+_txt = format ["Upgrade kostete %1$", _cost];
+["TaskSucceeded",["",_txt]] call BIS_fnc_showNotification;
 
 if (_cost > CASH) then {
 	BANK = BANK - _cost;
-	["TaskSucceeded",["","Upgrade vom Bankkonto bezahlt"]] call BIS_fnc_showNotification;
 } else {
 	CASH = CASH - _cost;
-	["TaskSucceeded",["","Upgrade bar bezahlt"]] call BIS_fnc_showNotification;
 };
 
 life_TRESOR set [1,(_upgrade +1)];
