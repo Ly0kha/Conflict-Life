@@ -28,8 +28,14 @@ _action = [
 ] call BIS_fnc_guiMessage;
 
 if (_action) then {
-    if (BANK < (_houseCfg select 0)) exitWith {hint format [localize "STR_House_NotEnough"]};
-    BANK = BANK - (_houseCfg select 0);
+	
+if ((_houseCfg select 0) > CASH) then {
+	BANK = BANK - (_houseCfg select 0);
+} else {
+	CASH = CASH - (_houseCfg select 0);
+};
+    //if (BANK < (_houseCfg select 0)) exitWith {hint format [localize "STR_House_NotEnough"]};
+    //BANK = BANK - (_houseCfg select 0);
     [1] call SOCK_fnc_updatePartial;
 
     if (life_HC_isActive) then {

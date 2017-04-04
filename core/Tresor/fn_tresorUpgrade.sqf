@@ -33,8 +33,10 @@ hint format ["Upgrade kostete %1$", _cost];
 
 if (_cost > CASH) then {
 	BANK = BANK - _cost;
+	["TaskSucceeded",["","Upgrade vom Bankkonto bezahlt"]] call BIS_fnc_showNotification;
 } else {
 	CASH = CASH - _cost;
+	["TaskSucceeded",["","Upgrade bar bezahlt"]] call BIS_fnc_showNotification;
 };
 
 life_TRESOR set [1,(_upgrade +1)];
