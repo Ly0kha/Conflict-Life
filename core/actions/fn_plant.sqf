@@ -38,6 +38,7 @@ if([false,_reqItem,1] call life_fnc_handleInv)then{
 	waitUntil {
 		animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
 	};
+	uisleep 1.5;
 	life_action_inUse = false;
 	{
 		_offpos =[0,0,(_offsets select _cnt)] vectorAdd _pos; 
