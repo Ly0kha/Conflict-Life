@@ -74,6 +74,7 @@ class Life_Client_Core {
         class unrestrain {};
 		class plant{};
 		class plantgather{};
+		class getGarbage{};
     };
 
     class Admin {

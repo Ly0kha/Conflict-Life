@@ -179,7 +179,7 @@ class CfgRemoteExec {
     class Commands {
         mode = 1;
         jip = 0;
-
+		F(hideObjectGlobal,SERVER)
         F(addHandgunItem,ANYONE)
         F(addMagazine,ANYONE)
         F(addPrimaryWeaponItem,ANYONE)
