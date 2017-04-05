@@ -27,7 +27,7 @@ if(_found)then{
 				if(_space < 20)then{					//maximale anzahl mülltonnen im müllwagen
 					detach _dgarb;
 					_dgarb attachto [_garbtruck,[0,-5,0]];
-					_garbtruck setVariable["garb",(_space-1),true];
+					_garbtruck setVariable["garb",(_space+1),true];
 					uisleep 2;	
 					_success=true;
 				}else{hint "Muellwagen voll"};
