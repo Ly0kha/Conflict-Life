@@ -1,4 +1,8 @@
 private["_ter", "_garb", "_empty","_found"];
+if (life_action_inUse) exitWith {};
+if !(isNull objectParent player) exitWith {};
+if (player getVariable "restrained") exitWith {hint localize "STR_NOTF_isrestrained";};
+if (player getVariable "playerSurrender") exitWith {hint localize "STR_NOTF_surrender";};
 _found=false;
 _ter=nearestTerrainObjects [player, ["HIDE"], 5]; 
 {
@@ -9,6 +13,7 @@ if(_found)then{
 		_garb hideObject true;
 		_dummygarb = createVehicle ["Land_GarbageContainer_closed_F", _garb,[], 0, "NONE"];
 		_dummygarb attachTo [player, [0, 2, 0.8]];
+		life_action_inUse=true;
 		player addAction ["Mülltonne ausleeren", {
 			_dgarb=_this select 3 select 1;
 			_garbtrucks=[];
@@ -17,22 +22,22 @@ if(_found)then{
 			if((count _garbtrucks)> 0)then{
 				_garbtruck=_garbtrucks select 0;
 				_space=_garbtruck getVariable "garb";
-				_cap=5;
 				if (isNil "_space")then{_space = 0;_garbtruck setVariable["garb",0,true];};				
-				if(_space < _cap)then{
+				if(_space < 20)then{
 					detach _dgarb;
 					_dgarb attachto [_garbtruck,[0,-5,0]];
 					_garbtruck setVariable["garb",(_space-1),true];
 					uisleep 2;	
 					_success=true;
 				}else{hint "Muellwagen voll"};
-
 			}else {hint "Da ist kein Muellwagen"};		
 			_rgarb = _this select 3 select 0;
 			player removeAction (_this select 2);
 			deleteVehicle _dgarb;
-			if(_success)then{uisleep 60};
+			life_action_inUse=false;
+			if(_success)then{uisleep 1800};
 			_rgarb hideObject false;
 		}, [_garb,_dummygarb]];
 	}
 };
+
