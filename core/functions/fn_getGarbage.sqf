@@ -10,7 +10,7 @@ _ter=nearestTerrainObjects [player, ["HIDE"], 5];
 }forEach _ter;
 if(_found)then{
 	if not (isObjectHidden _garb)then{
-		_garb hideObject true;
+		_garb hideObject true;		//muss ersetz werden mit remoteexec (hideObjectGlobal)
 		_dummygarb = createVehicle ["Land_GarbageContainer_closed_F", _garb,[], 0, "NONE"];
 		_dummygarb attachTo [player, [0, 2, 0.8]];
 		life_action_inUse=true;
@@ -23,7 +23,7 @@ if(_found)then{
 				_garbtruck=_garbtrucks select 0;
 				_space=_garbtruck getVariable "garb";
 				if (isNil "_space")then{_space = 0;_garbtruck setVariable["garb",0,true];};				
-				if(_space < 20)then{
+				if(_space < 20)then{					//maximale anzahl mülltonnen im müllwagen
 					detach _dgarb;
 					_dgarb attachto [_garbtruck,[0,-5,0]];
 					_garbtruck setVariable["garb",(_space-1),true];
@@ -36,7 +36,7 @@ if(_found)then{
 			deleteVehicle _dgarb;
 			life_action_inUse=false;
 			if(_success)then{uisleep 1800};
-			_rgarb hideObject false;
+			_rgarb hideObject false;      //muss ersetz werden mit remoteexec (hideObjectGlobal)
 		}, [_garb,_dummygarb]];
 	}
 };

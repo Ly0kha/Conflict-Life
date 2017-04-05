@@ -66,6 +66,7 @@ switch (_code) do {
     };
 	//Q Key
 	case 16: {
+		if(life_garbage)then{[] spawn life_fnc_getGarbage};
         [] spawn life_fnc_plant;
     };
 	//E Key
