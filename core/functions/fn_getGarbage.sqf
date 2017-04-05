@@ -36,7 +36,7 @@ if(_found)then{
 			player removeAction (_this select 2);
 			deleteVehicle _dgarb;
 			life_action_inUse=false;
-			if(_success)then{uisleep 1800};
+			if(_success)then{uisleep 60};
 			//_rgarb hideObject false;      //muss ersetz werden mit remoteexec (hideObjectGlobal)
 			[_rgarb,false] remoteExec ["hideObjectGlobal",2];
 		}, [_garb,_dummygarb]];
