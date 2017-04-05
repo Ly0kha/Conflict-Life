@@ -15,18 +15,18 @@ if(_found)then{
 			_garbtrucks=nearestObjects[player,["O_T_Truck_03_repair_ghex_F"],10];
 			_success=false;
 			if((count _garbtrucks)> 0)then{
-				_garbtruck=(nearestObjects[player,["O_T_Truck_03_repair_ghex_F"],10])select 0;
+				_garbtruck=_garbtrucks select 0;
 				_space=_garbtruck getVariable "garb";
 				_cap=5;
-				if not (isNil "_space")then{
-					if(_space < _cap)then{
-						detach _dgarb;
-						_dgarb attachto [_garbtruck,[0,-5,0]];
-						_garbtruck setVariable["garb",(_space-1),true];
-						uisleep 2;	
-						_success=true;
-					}else{hint "Muellwagen voll"};
-				}else {hint "Da ist kein Muellwagen"};
+				if (isNil "_space")then{_space = 0;_garbtruck setVariable["garb",0,true];};				
+				if(_space < _cap)then{
+					detach _dgarb;
+					_dgarb attachto [_garbtruck,[0,-5,0]];
+					_garbtruck setVariable["garb",(_space-1),true];
+					uisleep 2;	
+					_success=true;
+				}else{hint "Muellwagen voll"};
+
 			}else {hint "Da ist kein Muellwagen"};		
 			_rgarb = _this select 3 select 0;
 			player removeAction (_this select 2);
