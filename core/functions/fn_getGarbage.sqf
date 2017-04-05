@@ -10,7 +10,8 @@ _ter=nearestTerrainObjects [player, ["HIDE"], 5];
 }forEach _ter;
 if(_found)then{
 	if not (isObjectHidden _garb)then{
-		_garb hideObject true;		//muss ersetz werden mit remoteexec (hideObjectGlobal)
+		[_garb,true] remoteExec ["hideObjectGlobal",2];
+	//	_garb hideObject true;		//muss ersetz werden mit remoteexec (hideObjectGlobal)
 		_dummygarb = createVehicle ["Land_GarbageContainer_closed_F", _garb,[], 0, "NONE"];
 		_dummygarb attachTo [player, [0, 2, 0.8]];
 		life_action_inUse=true;
@@ -36,7 +37,8 @@ if(_found)then{
 			deleteVehicle _dgarb;
 			life_action_inUse=false;
 			if(_success)then{uisleep 1800};
-			_rgarb hideObject false;      //muss ersetz werden mit remoteexec (hideObjectGlobal)
+			//_rgarb hideObject false;      //muss ersetz werden mit remoteexec (hideObjectGlobal)
+			[_rgarb,false] remoteExec ["hideObjectGlobal",2];
 		}, [_garb,_dummygarb]];
 	}
 };
