@@ -19,6 +19,7 @@ if(_found)then{
 			_garbtrucks=[];
 			_garbtrucks=nearestObjects[player,["O_T_Truck_03_repair_ghex_F"],10];
 			_success=false;
+			_garbtruck="";
 			if((count _garbtrucks)> 0)then{
 				_found=false;
 				{
