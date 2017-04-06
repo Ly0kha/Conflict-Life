@@ -17,6 +17,7 @@ if(_found)then{
 		CASH=CASH+(_garbs*25000);
 		["TaskSucceeded",["",_msg]] call BIS_fnc_showNotification;
 		["ItemProcessed"] spawn mav_ttm_fnc_addExp;
+		_truck setVariable["garb",0,true];
 	}else{["TaskFailed",["","Da ist nix drin!"]] call BIS_fnc_showNotification;};
 };
 life_action_inUse=false;
