@@ -49,7 +49,7 @@ life_civ_position = [];
 life_markers = false;
 life_canpay_bail = true;
 life_smartphoneTarget = ObjNull;
-life_garbage=true; //zu testzwecken auf true
+life_garbage=false; //zu testzwecken auf true
 
 //Settings
 life_settings_enableNewsBroadcast = profileNamespace getVariable ["life_enableNewsBroadcast",true];
