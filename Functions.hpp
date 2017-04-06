@@ -75,6 +75,7 @@ class Life_Client_Core {
 		class plant{};
 		class plantgather{};
 		class getGarbage{};
+		class emptyGrbTruck{};
     };
 
     class Admin {
