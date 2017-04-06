@@ -34530,7 +34530,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_schließfach"",life_fnc_openTres,"""""""",0,false,false,"""""""",' isNull objectParent player && player distance _target < 5'];";
+				init="this enableSimulation false; this allowDamage false; this addAction[localize ""STR_MAR_schließfachgang"",{[0] spawn life_fnc_openTres;}];";
 			};
 			id=1195;
 			type="Land_InfoStand_V2_F";
