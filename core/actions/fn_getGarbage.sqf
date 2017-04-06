@@ -1,4 +1,4 @@
-private["_ter", "_garb", "_empty","_found"];
+private["_ter", "_garb", "_empty","_found","_garbtruck"];
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
 if (player getVariable "restrained") exitWith {hint localize "STR_NOTF_isrestrained";};
