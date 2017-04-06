@@ -55,6 +55,7 @@ class CarShops {
             { "O_Truck_03_device_F", "" },
             { "C_Van_01_fuel_F", "" },
             { "I_Truck_02_fuel_F", "" },
+			{ "O_T_Truck_03_repair_ghex_F", "" },		//temp garbtruck
             { "B_Truck_01_fuel_F", "" }
         };
     };
@@ -656,7 +657,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 250000;
         textures[] = {};
     };
-
+	class O_T_Truck_03_repair_ghex_F {									//temp garbagetruck
+        vItemSpace = 20;
+        conditions = "license_civ_trucking || {!(playerSide isEqualTo civilian)}";
+        price = 250000;
+        textures[] = {};
+    };
+	
     class C_Hatchback_01_F {
         vItemSpace = 40;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
