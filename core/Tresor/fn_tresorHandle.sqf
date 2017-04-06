@@ -136,6 +136,13 @@ switch(_mode) do {
 };
 
 if(!_handle) exitwith {TRESOR_HANDLE = false;};
-[player, getPlayerUID player, (life_TRESOR select 0)] remoteExec ["DB_fnc_changeTresor",2];
-life_TRESOR spawn life_fnc_recItems;
-TRESOR_HANDLE = false;
+
+if (GANG_TRES) then {	
+	[1,player, ((group player)getvariable ["gang_id",-1]), (life_TRESOR select 0)] remoteExec ["DB_fnc_changeTresor",2];
+	life_TRESOR spawn life_fnc_recItems;
+	TRESOR_HANDLE = false;
+} else {
+	[0,player, getPlayerUID player, (life_TRESOR select 0)] remoteExec ["DB_fnc_changeTresor",2];
+	life_TRESOR spawn life_fnc_recItems;
+	TRESOR_HANDLE = false;
+};

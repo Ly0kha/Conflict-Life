@@ -25,25 +25,39 @@ _upgrade = life_TRESOR select 1;
 
 _cost = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",_upgrade+1]) >> "cost");
 _spaceU = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",_upgrade+1]) >> "space");
-	
-if (_cost > CASH && _cost > BANK) exitwith {
-	["TaskFailed",["","Nicht genug Geld!"]] call BIS_fnc_showNotification;
-};
-_txt = format ["Upgrade kostete %1$", _cost];
-["TaskSucceeded",["",_txt]] call BIS_fnc_showNotification;
 
-if (_cost > CASH) then {
-	BANK = BANK - _cost;
+if (GANG_TRES) then {	
+	if (((group player)getvariable ["gang_bank",0])>=_cost) then {
+		(group player) setvariable ["gang_bank",((group player)getvariable ["gang_bank",0])-_cost , true];
+		_txt = format ["Upgrade kostete %1$", _cost];
+		["TaskSucceeded",["",_txt]] call BIS_fnc_showNotification;
+		[1,group player] remoteExec ["TON_fnc_updateGang",2];
+	} else {
+		["TaskFailed",["","Nicht genug Geld!"]] call BIS_fnc_showNotification;
+	};	
 } else {
-	CASH = CASH - _cost;
-};
+	if (_cost > CASH && _cost > BANK) exitwith {
+		["TaskFailed",["","Nicht genug Geld!"]] call BIS_fnc_showNotification;
+	};
+	_txt = format ["Upgrade kostete %1$", _cost];
+	["TaskSucceeded",["",_txt]] call BIS_fnc_showNotification;
 
+	if (_cost > CASH) then {
+		BANK = BANK - _cost;
+	} else {
+		CASH = CASH - _cost;
+	};
+};
 life_TRESOR set [1,(_upgrade +1)];
 
-[player, getPlayerUID player,(_upgrade +1)] remoteExec ["DB_fnc_upgradeTresor",2];
+if (GANG_TRES) then {
+	[player, ((group player)getvariable ["gang_id",-1]),(_upgrade +1)] remoteExec ["DB_fnc_upgradeTresor",2];
+} else {
+	[player, getPlayerUID player,(_upgrade +1)] remoteExec ["DB_fnc_upgradeTresor",2];
 
-life_TRESOR spawn life_fnc_recItems;
-[0] call SOCK_fnc_updatePartial;
-[3] call SOCK_fnc_updatePartial;
+	life_TRESOR spawn life_fnc_recItems;
+	[0] call SOCK_fnc_updatePartial;
+	[3] call SOCK_fnc_updatePartial;
 
-[] spawn life_fnc_hudUpdate;
+	[] spawn life_fnc_hudUpdate;
+};

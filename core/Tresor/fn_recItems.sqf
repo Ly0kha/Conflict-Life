@@ -5,14 +5,16 @@
 	Receives items from DB
 
 */
-disableSerialization;
-waitUntil {!isNull (findDisplay 18504)};
-_display = findDisplay 18504;
+
 if (isnil "TRESOR_CALC") then {
  TRESOR_CALC = false;
 };
 if (TRESOR_CALC) exitwith {};
 TRESOR_CALC = true;
+
+disableSerialization;
+waitUntil {!isNull (findDisplay 18504)};
+_display = findDisplay 18504;
 
 _upgradeBT = _display displayCtrl 1013;
 _upgradeText = _display displayCtrl 1014;
@@ -25,30 +27,40 @@ lbClear _lbT ;
 _wTres = _display displayCtrl 1009;
 _wInv = _display displayCtrl 1010;
 
+if (count _this < 1) exitwith {["TaskFailed",["","Tresor in Benutzung!"]] call BIS_fnc_showNotification;};
+
 _items = _this select 0;
 _upgrade = _this select 1;
 
 life_TRESOR = _this;
 
 _space = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",_upgrade]) >> "space");
+_cost = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",_upgrade+1]) >> "cost");
 
 if (_upgrade >= 13) then {
 	_upgradeBT ctrlShow false;
 } else {
 	_upgradeBT ctrlShow true;
-	_text = gettext (missionConfigFile >> "Tresor" >> "ToolTipUpgrade");
-	_cost = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",_upgrade+1]) >> "cost");
+	_text = gettext (missionConfigFile >> "Tresor" >> "ToolTipUpgrade");	
 	_spaceU = getnumber (missionConfigFile >> "Tresor" >> (format["Tresor_%1",_upgrade+1]) >> "space");
 	
 	_text = format[_text,[_cost] call life_fnc_numberText,[_spaceU] call life_fnc_numberText];
 	
 	_upgradeText ctrlSetText _text;
 
-	if (_cost > CASH && _cost > BANK) then {
+	if (_cost > CASH && _cost > BANK ) then {
 		_upgradeBT ctrlEnable false; // nicht genug Geld... weg mit der action! ~ Cash und Bank werden gezählt... 
 	};
 };
-
+if (GANG_TRES) then {
+	if (((group player)getvariable ["gang_owner",-1]) < 0 || ((group player)getvariable ["gang_owner",-1]) != getplayeruid player) then {
+		_upgradeBT ctrlShow false;
+	} else {
+		if (((group player)getvariable ["gang_bank",0])>=_cost) then {
+			_upgradeBT ctrlEnable true;
+		};
+	};
+};
 
 _w = (_items select 1);
 
@@ -90,5 +102,5 @@ if (_upgrade > 0) then {
 	_openTresText ctrlSetText "Du besitzt kein Fach.";
 };
 
-sleep (random 0.3);
+sleep (random 0.3)+0.1;
 TRESOR_CALC = false;
