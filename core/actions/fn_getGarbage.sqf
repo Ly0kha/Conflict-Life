@@ -1,3 +1,4 @@
+#include "..\..\script_macros.hpp"
 private["_ter", "_garb", "_empty","_found","_garbtruck"];
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
