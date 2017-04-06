@@ -42,7 +42,7 @@ class Cation_Crafting {
             { "hgun_ACPC2_F", "",											{"apple",1},"",""},
             { "SMG_05_F", "",												{"apple",1},"",""},
             { "hgun_PDW2000_F", "",											{"apple",1},"",""},
-            { "arifle_TRG20_F","(call life_currentExpLevel) >= 10",			{"apple",1},"",""},
+            { "arifle_TRG20_F","[life_currentExpPerks, ""perk_paycheck_2""] call mav_ttm_fnc_hasPerk;",				{"apple",1},"",""},
             { "arifle_Katiba_F", "(call life_currentExpLevel) >= 10",		{"apple",1},"",""},
             { "srifle_DMR_01_F", "(call life_currentExpLevel) >= 10",		{"apple",1},"",""},
             { "arifle_SDAR_F", "(call life_currentExpLevel) >= 10",			{"apple",1},"",""},

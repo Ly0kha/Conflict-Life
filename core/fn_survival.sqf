@@ -80,10 +80,10 @@ for "_i" from 0 to 1 step 0 do {
     /* Check if the weight has changed and the player is carrying to much */
     if (life_carryWeight > 80 && {!isForcedWalk player}) then {
         player forceWalk true;
-		uiSleep 5;
+		uiSleep 2;
         if (LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1) then {player setFatigue 1;};
         //hint localize "STR_NOTF_MaxWeight";
-		["zuschwer",["","Du trägst zu viele Item's bei dir!"]] call BIS_fnc_showNotification;
+		//["zuschwer",["","Du trägst zu viele Item's bei dir!"]] call BIS_fnc_showNotification;
     } else {
         if (isForcedWalk player) then {
             player forceWalk false;
@@ -92,7 +92,11 @@ for "_i" from 0 to 1 step 0 do {
 	if (life_carryWeight > 80) then {
 		player action ["Eject", vehicle player];
 	};
-
+	if (life_currentExpLevel >= 8002 && life_currentExpLevel <= 8010) then {
+		["zuschwer",["","Neues Level erreich!"]] call BIS_fnc_showNotification;
+		uiSleep 200;
+	};
+	
     /* Travelling distance to decrease thirst/hunger which is captured every second so the distance is actually greater then 650 */
     if (!alive player) then {_walkDis = 0;} else {
         _curPos = visiblePosition player;
