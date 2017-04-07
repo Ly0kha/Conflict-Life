@@ -8,6 +8,7 @@ class CfgPlants {
 		item = "opium";
 		zoneSize = 30;
 		reqItem = "opiumseed";
+		dist = 1;
 	};
 	class Apfelbaum {
 		amount = 5;
@@ -18,6 +19,7 @@ class CfgPlants {
 		item = "apple";
 		zoneSize = 30;
 		reqItem = "opiumseed";
+		dist = 3;
 	};
 	class pumpkin {
 		amount = 5;
@@ -28,5 +30,6 @@ class CfgPlants {
 		item = "opium";
 		zoneSize = 30;
 		reqItem = "opiumseed";
+		dist = 2;
 	};
 };

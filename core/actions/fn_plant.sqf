@@ -1,4 +1,4 @@
-private["_plantsCfg","_curConfig","_zoneSize","_plantZones","_zone","_models","_times","_offsets","_item","_reqItem","_cnt","_offpos","_pos","_plant","_near"];
+private["_plantsCfg","_curConfig","_zoneSize","_plantZones","_zone","_models","_times","_offsets","_item","_reqItem","_dist","_cnt","_offpos","_pos","_plant","_near"];
 
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
@@ -18,6 +18,7 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
 	_times = getArray (_curConfig >> "time");
 	_offsets = getArray (_curConfig >> "offset");
 	_item= getText (_curConfig >> "item");
+	_dist= getNumber (_curConfig >> "dist");
 	_reqItem= getText (_curConfig >> "reqItem");
     {
         if ((player distance (getMarkerPos _x)) < _zoneSize) exitWith {_zone = _x;};
@@ -30,7 +31,7 @@ _pos=getPosASL player;
 _cnt=0;
 _near=false;
 for "_j" from 0 to count(_models)-1 do {
-	if(count (nearestObjects [position player, [], 1] select {typeOf _x == (_models select _j)})>0)exitWith{_near=true;};
+	if(count (nearestObjects [position player, [], _dist] select {typeOf _x == (_models select _j)})>0)exitWith{_near=true;};
 };
 if(_near)exitWith{life_action_inUse=false;};
 if([false,_reqItem,1] call life_fnc_handleInv)then{
