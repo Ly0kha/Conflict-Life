@@ -19,7 +19,7 @@ class CfgPlants {
 		item = "apple";
 		zoneSize = 30;
 		reqItem = "opiumseed";
-		dist = 3;
+		dist = 5;
 	};
 	class pumpkin {
 		amount = 5;
