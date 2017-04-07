@@ -1,5 +1,5 @@
 #include "..\..\script_macros.hpp"
-private["_plantsCfg","_curConfig","_zoneSize","_plantZones","_zone","_models","_nearplant","_grown","_amount","_diff","_itemName"];
+private["_plantsCfg","_curConfig","_zoneSize","_plantZones","_zone","_models","_nearplant","_grown","_amount","_diff","_itemName","_dist"];
 
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
@@ -16,13 +16,14 @@ for "_i" from 0 to count(_plantsCfg)-1 do {
 	_models = getArray (_curConfig >> "model");
     _plantZones = getArray(_curConfig >> "zones");
 	_amount=getNumber(_curConfig >> "amount");
+	_dist=getnumber(_curConfig >> "distgat");
     {
         if ((player distance (getMarkerPos _x)) < _zoneSize) exitWith {_zone = _x;};
     } forEach _plantZones;
     if (_zone != "") exitWith {};
 };
 if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
-_nearPlant=((nearestObjects [position player, [], 2] select {typeOf _x == (_models select (count _models -1))}) select 0);
+_nearPlant=((nearestObjects [position player, [], _dist] select {typeOf _x == (_models select (count _models -1))}) select 0);
 if(isNil "_nearPlant") exitWith{life_action_inUse = false;};
 _grown=_nearPlant getVariable "item";
 if(isNil "_grown") exitWith{life_action_inUse=false;};
