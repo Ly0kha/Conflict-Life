@@ -1,3 +1,4 @@
+#include "..\..\script_macros.hpp"
 private["_trucks","_truck","_found","_garbs","_msg"];
 if (life_action_inUse) exitWith {};
 if !(isNull objectParent player) exitWith {};
@@ -14,7 +15,7 @@ if(_found)then{
 	if (isNil "_garbs")then{_garbs = 0;_truck setVariable["garb",0,true];};
 	if (_garbs>0)then{
 		_msg=format ["Du hast %1 für %2 Muellcontainer erhalten",(_garbs*25000),_garbs];
-		CASH=CASH+(_garbs*25000);
+		CASH = CASH +(_garbs*25000);
 		["TaskSucceeded",["",_msg]] call BIS_fnc_showNotification;
 		["ItemProcessed"] spawn mav_ttm_fnc_addExp;
 		_truck setVariable["garb",0,true];
